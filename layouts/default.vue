@@ -69,7 +69,7 @@
             <ul class="footer__menues mb-0">
               <li><nuxt-link to="/"> হোম </nuxt-link></li>
               <li><nuxt-link to="/frontend-bootcamp"> ফ্রন্টএন্ড বুটক্যাম্প </nuxt-link> </li>
-              <li><nuxt-link to="/backend-bootcamp"> ব্যাকএন্ড বুটক্যাম্প </nuxt-link> </li>
+              <li><nuxt-link to="backend-bootcamp"> ব্যাকএন্ড বুটক্যাম্প </nuxt-link> </li>
             </ul>
             <ul class="footer__social-icon ml-0">
               <li><a href="https://www.facebook.com/codeshikhibd" target="__blank"><i class="fab fa-facebook-f"></i></a>
