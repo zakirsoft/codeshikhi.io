@@ -6,9 +6,9 @@
         <div class="row align-items-center">
           <div class="col-xl-12">
             <nav class="navbar navbar-expand-lg navbar-light">
-              <a class="navbar-brand" href="index.html">
+              <nuxt-link class="navbar-brand" to="/">
                 <img src="~/assets/images/logo.png" alt="logo">
-              </a>
+              </nuxt-link>
               <button
                 class="navbar-toggler"
                 data-toggle="collapse"
@@ -22,14 +22,14 @@
               <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <ul class="navbar-nav nav ml-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" href="index.html">হোম
-                    </a>
+                    <nuxt-link class="nav-link active" to="/">হোম
+                    </nuxt-link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="frontend-bootcamp.html">ফ্রন্টএন্ড বুটক্যাম্প</a>
+                    <nuxt-link class="nav-link" to="/frontend-bootcamp">ফ্রন্টএন্ড বুটক্যাম্প</nuxt-link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="backend-bootcamp.html">ব্যাকএন্ড বুটক্যাম্প</a>
+                    <nuxt-link class="nav-link" to="/backend-bootcamp">ব্যাকএন্ড বুটক্যাম্প</nuxt-link>
                   </li>
                 </ul>
               </div>
@@ -63,13 +63,13 @@
           <div class="footer-content">
             <!-- logo goes here -->
             <div class="footer__logo">
-              <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+              <img src="~/assets/images/logo.png" alt="logo" class="img-fluid">
             </div>
             <!-- FOOTER MENU GOES HERE -->
             <ul class="footer__menues mb-0">
-              <li><a href="index.html"> হোম </a></li>
-              <li><a href="frontend-bootcamp.html"> ফ্রন্টএন্ড বুটক্যাম্প </a> </li>
-              <li><a href="backend-bootcamp.html"> ব্যাকএন্ড বুটক্যাম্প </a> </li>
+              <li><nuxt-link to="/">হোম</nuxt-link></li>
+              <li><nuxt-link to="/frontend-bootcamp">ফ্রন্টএন্ড বুটক্যাম্প</nuxt-link></li>
+              <li><nuxt-link to="/backend-bootcamp">ব্যাকএন্ড বুটক্যাম্প</nuxt-link></li>
             </ul>
             <ul class="footer__social-icon ml-0">
               <li><a href="https://www.facebook.com/codeshikhibd" target="__blank"><i class="fab fa-facebook-f"></i></a>
