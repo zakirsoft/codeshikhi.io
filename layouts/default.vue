@@ -72,9 +72,16 @@
               <li><nuxt-link to="backend-bootcamp"> ব্যাকএন্ড বুটক্যাম্প </nuxt-link> </li>
             </ul>
             <ul class="footer__social-icon ml-0">
-              <li><a href="https://www.facebook.com/codeshikhibd" target="__blank"><i class="fab fa-facebook-f"></i></a>
+              <li>
+                <a href="https://www.facebook.com/codeshikhibd" target="__blank">
+                  <font-awesome-icon :icon="['fab', 'facebook-f']"/>
+                </a>
               </li>
-              <li><a href="https://github.com/codeshikhi" target="__blank"><i class="fab fa-github"></i></a></li>
+              <li>
+                <a href="https://github.com/codeshikhi" target="__blank">
+                  <font-awesome-icon :icon="['fab', 'github']"/>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
