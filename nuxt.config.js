@@ -35,7 +35,7 @@ export default {
 
   fontawesome: {
     icons: {
-      solid: ['faCog', 'faAddressBook', 'faGlobe', 'faGraduationCap', 'faUser', 'faList', 'faDollarSign', 'faBriefcase', 'faCheck'],
+      solid: ['faCog', 'faAddressBook', 'faGlobe', 'faGraduationCap', 'faUser', 'faList', 'faDollarSign', 'faBriefcase', 'faCheck', 'faPlayCircle', 'faChevronRight', 'faCode'],
       regular: [],
       brands: ['faFacebookF', 'faGithub', 'faInternetExplorer']
     }
