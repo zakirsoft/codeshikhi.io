@@ -1,0 +1,98 @@
+.subbanner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+    padding: 64px 0;
+
+    // &::before {
+    //     background: #fff;
+    //     position: absolute;
+    //     top: 0;
+    //     right: 0;
+    //     bottom: 0;
+    //     right: 0;
+    //     z-index: -1;
+    //     width: 100%;
+    //     height: 100%;
+    //     content: "";
+    //     opacity: 0.9;
+    // }
+
+    .btn-pill {
+        padding: 5px 14px;
+        border-radius: 20px;
+        font-size: 12px;
+    }
+
+    .btn-success {
+        color: #fff;
+        background-color: #00c9a7;
+        border-color: #00c9a7;
+
+        &:hover {
+            background-color: #00c9a7;
+            border-color: #00c9a7;
+        }
+    }
+
+    &__header {
+        font-weight: 700;
+        color: $dark;
+        line-height: 1.2;
+    }
+
+    &__pra {
+        color: #677788;
+        line-height: 1.6;
+        max-width: 750px;
+    }
+
+    .avatar {
+        img {
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    }
+
+    &__wonner {
+        color: #677788;
+    }
+
+    .link-underline {
+        color: #677788;
+        transition: .3s !important;
+        font-weight: 600;
+        border-bottom: 1px dotted #677788;
+
+        &:hover {
+            color: #0052ea;
+            border-color:#0052ea;
+        }
+    }
+}
+
+
+
+/* ====  Responsive Css will be go here ==== */
+
+/* === For Large Device ( 1024px - 1200px) == */
+@include large {}
+
+/* === For Medium Device ( 768px - 1023px) == */
+@include medium {}
+
+/* === For Small Device ( 0px - 767px) == */
+@include small {
+    
+}
+
+/* === For Extra small Device ( 320px - 575px) == */
+@include ex_small {
+    
+}
+
+

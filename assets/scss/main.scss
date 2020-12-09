@@ -1,0 +1,36 @@
+// Include fonts
+// font ballo da-2 & open sans
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Open+Sans:wght@400;600;700;800&display=swap');
+
+// config
+@import './utility/reset';
+@import './utility/variable';
+@import './utility/common';
+
+// responsive - function
+@import './function/function';
+
+// component
+@import './component/button';
+@import './component/header';
+@import './component/banner';
+@import './component/bootcamp';
+@import './component/trainer';
+@import './component/callaction';
+@import './component/project';
+@import './component/how-we';
+@import './component/syllabus';
+@import './component/faq';
+@import './component/_got-question';
+@import './component/footer';
+
+//crourse page css
+@import './component/subbanner';
+@import './component/features';
+@import './component/platform';
+
+//footer
+
+// Responsive Device function
+// @import './responsive/responsive';

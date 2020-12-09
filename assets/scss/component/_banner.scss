@@ -1,0 +1,54 @@
+.banner {
+	&__heading {
+		font-weight: 600;
+		line-height: 1.4;
+		color: $dark;
+	}
+
+	&__pra {
+		font-size: 16px;
+		color: #677788;
+		line-height: 1.6;
+	}
+
+	&__button {
+		.btn-wide {
+			min-width: 10rem;
+			padding-top: 14px;
+			padding-bottom: 14px;
+		}
+
+		.btn-link {
+			font-weight: 600;
+			color: $primary;
+
+			&:hover {
+				color: $dark;
+				text-decoration: none;
+			}
+		}
+	}
+
+	&__small {
+		color: #677788;
+		font-size: 14px;
+	}
+}
+
+
+@media(max-width: 767px){
+    section.banner {
+        // padding-top: 0;
+        .banner__image {
+            display: none;
+        }
+    }
+}
+
+
+// For extra small device (0 to 399px) 
+@include only_xs {
+    .banner__heading {
+        font-size: 28px;
+    } 
+}

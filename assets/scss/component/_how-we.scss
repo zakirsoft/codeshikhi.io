@@ -1,0 +1,79 @@
+.go {
+	// background-color: $primary;
+	color: #fff;
+
+	// section -head
+	.section__info {
+		text-align: center !important;
+		margin-bottom: 60px;
+		.section_title {
+			margin-bottom: 0;
+			padding-bottom: 12px;
+			line-height: 32px;
+			span {
+				background-color: transparent;
+				color: #fff;
+			}
+		}
+		.section_brief {
+			font-size: 16px;
+			font-weight: 600;
+			width: 50%;
+			margin: auto;
+			color: rgba(255, 255, 255, 0.75);
+		}
+	}
+
+	&__box-content {
+		margin: 30px 0px;
+	}
+
+	&_icon {
+		font-size: 18px;
+	}
+	&_title {
+		font-size: 22px;
+		font-weight: 600;
+		margin: 12px 0px;
+	}
+	&_brief {
+		font-size: 18px;
+		line-height: 32px;
+        color: rgba(255, 255, 255, 0.75);
+		font-weight: 500;
+	}
+	//   box-content
+
+	//   btns
+	&__btns {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		li {
+			&:nth-child(2) {
+				padding: 0px 18px;
+				a {
+					color: rgba(221, 221, 221, 0.63);
+				}
+			}
+		}
+	}
+}
+
+/* ====  Responsive Css will be go here ==== */
+
+/* === For Small Device ( 0px - 767px) == */
+@include small {
+	.section_title {
+		font-size: 28px;
+	}
+	.section_brief {
+		width: 100% !important;
+	}
+
+	.go {
+		&__btns {
+			flex-direction: column;
+		}
+	}
+}

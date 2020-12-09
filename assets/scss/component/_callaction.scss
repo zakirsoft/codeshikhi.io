@@ -1,0 +1,39 @@
+.call-to-action {
+	padding: 35px 0px 35px 25px;
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 5px;
+	margin-bottom: 30px;
+
+	&__title {
+		color: #fff;
+
+		h4 {
+			font-weight: 700;
+			font-size: 28px;
+		}
+	}
+
+	&__text {
+		margin: 15px 0px 18px;
+		color: #fff;
+		max-width: 300px;
+
+		p {
+			font-size: 16px;
+		}
+	}
+}
+
+/* === For Extra small Device ( 320px - 575px) == */
+@include ex_small {
+}
+
+/* === For Medium Device ( 768px - 1023px) == */
+@include medium {
+}
+
+/* === For Large Device ( 1024px - 1200px) == */
+@include large {
+}
