@@ -40,36 +40,47 @@
     </header>
     <!-- header section end  -->
     <Nuxt />
-    <!-- footer section start -->
-    <footer class="footer">
-      <div class="container">
-        <!-- start from here  -->
-        <div class="footer-content">
-          <!-- logo goes here -->
-          <div class="footer__logo">
-            <img src="~/assets/images/logo.png" alt="logo" class="img-fluid">
+    <div class="skew-shape bg-light-gray">
+      <!-- Got Question section Start -->
+      <section class="absolute p-0" id="book">
+        <div class="container">
+          <div class="got-question bg-dark shadow-sm">
+            <div class="got-question__info">
+              <h5> ক্লাসে অংশগ্রহন করুন</h5>
+              <p> ক্লাসে অংশ গ্রহন করার জন্য, প্রদত্ত ফর্ম ফিলাপ করতে হবে আপনাকে। <br> অতঃপর আমাদের প্রতিনিধি আপনার সাথে
+                যোগাযোগ করবে, আপনার ভর্তির নিশ্চিত ব্যাপারে </p>
+            </div>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeEBvQDWwXKqxM5rph_JMviWpMHqUOWPrk_TP_kEPqS0PnBVQ/viewform" class="btn btn-light btn-lg"> আপনার সিট বুক করুন </a>
           </div>
-          <!-- FOOTER MENU GOES HERE -->
-          <ul class="footer__menues mb-0">
-            <li>
-              <nuxt-link to="/">হোম</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link to="/frontend-bootcamp">ফ্রন্টএন্ড বুটক্যাম্প</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link to="/backend-bootcamp">ব্যাকএন্ড বুটক্যাম্প</nuxt-link>
-            </li>
-          </ul>
-          <ul class="footer__social-icon ml-0">
-            <li><a href="https://www.facebook.com/codeshikhibd" target="__blank"><i class="fab fa-facebook-f"></i></a>
-            </li>
-            <li><a href="https://github.com/codeshikhi" target="__blank"><i class="fab fa-github"></i></a></li>
-          </ul>
         </div>
-      </div>
-    </footer>
-    <!-- footer section end -->
+      </section>
+      <!-- Got Question section End -->
+
+      <!-- footer section start -->
+      <footer class="footer">
+        <div class="container">
+          <!-- start from here  -->
+          <div class="footer-content">
+            <!-- logo goes here -->
+            <div class="footer__logo">
+              <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+            </div>
+            <!-- FOOTER MENU GOES HERE -->
+            <ul class="footer__menues mb-0">
+              <li><nuxt-link to="/"> হোম </nuxt-link></li>
+              <li><nuxt-link to="/frontend-bootcamp"> ফ্রন্টএন্ড বুটক্যাম্প </nuxt-link> </li>
+              <li><nuxt-link to="/backend-bootcamp"> ব্যাকএন্ড বুটক্যাম্প </nuxt-link> </li>
+            </ul>
+            <ul class="footer__social-icon ml-0">
+              <li><a href="https://www.facebook.com/codeshikhibd" target="__blank"><i class="fab fa-facebook-f"></i></a>
+              </li>
+              <li><a href="https://github.com/codeshikhi" target="__blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- footer section end -->
+    </div>
   </div>
 </template>
 
