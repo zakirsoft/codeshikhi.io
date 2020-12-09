@@ -16,19 +16,26 @@
                 type="button"
                 aria-controls="navbarSupportedContent"
                 aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon" />
               </button>
               <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <ul class="navbar-nav nav ml-auto">
                   <li class="nav-item">
-                    <nuxt-link class="nav-link" to="/"> হোম </nuxt-link>
+                    <nuxt-link class="nav-link" to="/">
+                      হোম
+                    </nuxt-link>
                   </li>
                   <li class="nav-item">
-                    <nuxt-link class="nav-link" to="/frontend-bootcamp"> ফ্রন্টএন্ড বুটক্যাম্প </nuxt-link>
+                    <nuxt-link class="nav-link" to="/frontend-bootcamp">
+                      ফ্রন্টএন্ড বুটক্যাম্প
+                    </nuxt-link>
                   </li>
                   <li class="nav-item">
-                    <nuxt-link class="nav-link" to="/backend-bootcamp"> ব্যাকএন্ড বুটক্যাম্প </nuxt-link>
+                    <nuxt-link class="nav-link" to="/backend-bootcamp">
+                      ব্যাকএন্ড বুটক্যাম্প
+                    </nuxt-link>
                   </li>
                 </ul>
               </div>
@@ -41,13 +48,15 @@
     <Nuxt />
     <div class="skew-shape bg-light-gray">
       <!-- Got Question section Start -->
-      <section class="absolute p-0" id="book">
+      <section id="book" class="absolute p-0">
         <div class="container">
           <div class="got-question bg-dark shadow-sm">
             <div class="got-question__info">
               <h5> ক্লাসে অংশগ্রহন করুন</h5>
-              <p> ক্লাসে অংশ গ্রহন করার জন্য, প্রদত্ত ফর্ম ফিলাপ করতে হবে আপনাকে। <br> অতঃপর আমাদের প্রতিনিধি আপনার সাথে
-                যোগাযোগ করবে, আপনার ভর্তির নিশ্চিত ব্যাপারে </p>
+              <p>
+                ক্লাসে অংশ গ্রহন করার জন্য, প্রদত্ত ফর্ম ফিলাপ করতে হবে আপনাকে। <br> অতঃপর আমাদের প্রতিনিধি আপনার সাথে
+                যোগাযোগ করবে, আপনার ভর্তির নিশ্চিত ব্যাপারে
+              </p>
             </div>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSeEBvQDWwXKqxM5rph_JMviWpMHqUOWPrk_TP_kEPqS0PnBVQ/viewform" class="btn btn-light btn-lg"> আপনার সিট বুক করুন </a>
           </div>
@@ -66,9 +75,21 @@
             </div>
             <!-- FOOTER MENU GOES HERE -->
             <ul class="footer__menues mb-0">
-              <li><nuxt-link to="/"> হোম </nuxt-link></li>
-              <li><nuxt-link to="/frontend-bootcamp"> ফ্রন্টএন্ড বুটক্যাম্প </nuxt-link> </li>
-              <li><nuxt-link to="backend-bootcamp"> ব্যাকএন্ড বুটক্যাম্প </nuxt-link> </li>
+              <li>
+                <nuxt-link to="/">
+                  হোম
+                </nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="/frontend-bootcamp">
+                  ফ্রন্টএন্ড বুটক্যাম্প
+                </nuxt-link>
+              </li>
+              <li>
+                <nuxt-link to="backend-bootcamp">
+                  ব্যাকএন্ড বুটক্যাম্প
+                </nuxt-link>
+              </li>
             </ul>
             <ul class="footer__social-icon ml-0">
               <li>

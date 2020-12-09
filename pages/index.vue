@@ -15,16 +15,18 @@
               </p>
               <div class="banner__button mt-5 mb-2">
                 <a class="btn btn-primary btn-wide mr-4 mb-2" href="frontend-bootcamp.html">ফ্রন্টএন্ড বুটক্যাম্প
-                  <i class="fas fa-angle-right fa-sm ml-1"></i></a>
+                  <i class="fas fa-angle-right fa-sm ml-1" /></a>
                 <a class="btn btn-dark btn-wide mb-2" href="backend-bootcamp.html">
                   ব্যাকএন্ড বুটক্যাম্প
-                  <i class="fas fa-angle-right fa-sm ml-1"></i></a>
+                  <i class="fas fa-angle-right fa-sm ml-1" /></a>
               </div>
               <!-- <span class="banner__small">Start free trial. * No credit card required.</span> -->
             </div>
           </div>
           <div class="col-md-12 col-lg-6 order-1 order-md-0">
-            <div class="banner__image mt-5"><img src="~/assets/images/banner.svg" alt="Bannr_image" class=" img-fluid" /></div>
+            <div class="banner__image mt-5">
+              <img src="~/assets/images/banner.svg" alt="Bannr_image" class=" img-fluid">
+            </div>
           </div>
         </div>
       </div>
@@ -48,7 +50,7 @@
               <div class="header">
                 <div class="title">
                   <div class="icon">
-                     <font-awesome-icon :icon="['fas', 'code']" />
+                    <font-awesome-icon :icon="['fas', 'code']" />
                   </div>
                   <p>ফ্রন্টএন্ড বুটক্যাম্প</p>
                 </div>
@@ -63,47 +65,69 @@
                 <!-- <p class="headline"> আপনি যা যা শিখবেন </p> -->
                 <ul class="check-list">
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>HTML</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>CSS</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>JavaScript</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>Bootstrap</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>SCSS</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>React & Vue.js</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>Git & Github</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>Server Mangement</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>Upwork Guidline</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>Fiverr Guidline</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>Resume Building</p>
                   </li>
                 </ul>
@@ -124,7 +148,7 @@
               <div class="header">
                 <div class="title">
                   <div class="icon">
-                     <font-awesome-icon :icon="['fas', 'code']" />
+                    <font-awesome-icon :icon="['fas', 'code']" />
                   </div>
                   <p>ব্যাকএন্ড বুটক্যাম্প</p>
                 </div>
@@ -138,47 +162,69 @@
               <div class="body">
                 <ul class="check-list">
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>PHP</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>MySQL</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>PHP OOP</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>Laravel</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>REST API</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>Vue.js</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>Git & Github</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>Server Mangement</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>Upwork Guidline</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>Fiverr Guidline</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']" />
+                    <div class="icon icon-success">
+                      <font-awesome-icon :icon="['fas', 'check']" />
+                    </div>
                     <p>Resume Building</p>
                   </li>
                 </ul>
