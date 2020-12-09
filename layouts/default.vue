@@ -26,10 +26,10 @@
                     </nuxt-link>
                   </li>
                   <li class="nav-item">
-                    <nuxt-link class="nav-link" to="/frontend-bootcamp">ফ্রন্টএন্ড বুটক্যাম্প</nuxt-link>
+                    <nuxt-link class="nav-link" to="/frontend-bootcamp"> ফ্রন্টএন্ড বুটক্যাম্প </nuxt-link>
                   </li>
                   <li class="nav-item">
-                    <nuxt-link class="nav-link" to="/backend-bootcamp">ব্যাকএন্ড বুটক্যাম্প</nuxt-link>
+                    <nuxt-link class="nav-link" to="/backend-bootcamp"> ব্যাকএন্ড বুটক্যাম্প </nuxt-link>
                   </li>
                 </ul>
               </div>
@@ -63,7 +63,7 @@
           <div class="footer-content">
             <!-- logo goes here -->
             <div class="footer__logo">
-              <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+              <img src="~/assets/images/logo.png" alt="logo" class="img-fluid">
             </div>
             <!-- FOOTER MENU GOES HERE -->
             <ul class="footer__menues mb-0">
