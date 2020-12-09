@@ -37,7 +37,7 @@
           <div class="col-12">
             <div class="section____info">
               <h2 class="heading-title">
-                আমাদের চলমান <span>বুটক্যাম্প</span>সমূহ
+                আমাদের চলমান <span>বুটক্যাম্প</span> সমূহ
               </h2>
             </div>
           </div>
@@ -47,7 +47,9 @@
             <div class="bootcamp-block">
               <div class="header">
                 <div class="title">
-                  <div class="icon"><i class="fas fa-code"></i></div>
+                  <div class="icon">
+                     <font-awesome-icon :icon="['fas', 'code']" />
+                  </div>
                   <p>ফ্রন্টএন্ড বুটক্যাম্প</p>
                 </div>
                 <p>
@@ -61,47 +63,47 @@
                 <!-- <p class="headline"> আপনি যা যা শিখবেন </p> -->
                 <ul class="check-list">
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>HTML</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>CSS</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>JavaScript</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>Bootstrap</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>SCSS</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>React & Vue.js</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>Git & Github</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>Server Mangement</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>Upwork Guidline</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>Fiverr Guidline</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>Resume Building</p>
                   </li>
                 </ul>
@@ -111,9 +113,9 @@
                   <h5>সম্পূর্ণ ৭২ ঘন্টা (৩ মাস)</h5>
                   <p>সপ্তাহে ৩ দিন ২ ঘন্টা করে</p>
                 </div>
-                <a class="btn btn-primary btn-outline-primary" href="frontend-bootcamp.html">
+                <nuxt-link class="btn btn-primary btn-outline-primary" to="/frontend-bootcamp">
                   বিস্তারিত দেখুন
-                </a>
+                </nuxt-link>
               </div>
             </div>
           </div>
@@ -121,7 +123,9 @@
             <div class="bootcamp-block">
               <div class="header">
                 <div class="title">
-                  <div class="icon"><i class="fas fa-code"></i></div>
+                  <div class="icon">
+                     <font-awesome-icon :icon="['fas', 'code']" />
+                  </div>
                   <p>ব্যাকএন্ড বুটক্যাম্প</p>
                 </div>
                 <p>
@@ -134,47 +138,47 @@
               <div class="body">
                 <ul class="check-list">
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>PHP</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>MySQL</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>PHP OOP</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>Laravel</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>REST API</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>Vue.js</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>Git & Github</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>Server Mangement</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>Upwork Guidline</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>Fiverr Guidline</p>
                   </li>
                   <li>
-                    <font-awesome-icon :icon="['fas', 'check']"/>
+                    <font-awesome-icon :icon="['fas', 'check']" />
                     <p>Resume Building</p>
                   </li>
                 </ul>
@@ -184,9 +188,9 @@
                   <h5>সম্পূর্ণ ৭২ ঘন্টা (৩ মাস)</h5>
                   <p>সপ্তাহে ৩ দিন ২ ঘন্টা করে</p>
                 </div>
-                <a class="btn btn-primary btn-outline-primary" href="backend-bootcamp.html">
+                <nuxt-link class="btn btn-primary btn-outline-primary" to="/backend-bootcamp">
                   বিস্তারিত দেখুন
-                </a>
+                </nuxt-link>
               </div>
             </div>
           </div>
@@ -194,71 +198,18 @@
       </div>
     </section>
     <!-- Bootcamps section end -->
-    <!-- Trainer section start -->
-    <section class="trainer">
-      <div class="container ">
-        <div class="row">
-          <div class="col-12">
-            <div class="trainer-title text-center">
-              <h6> আমাদের দক্ষ প্রশিক্ষক </h6>
-              <h4> পেশাদারদের বিশ্বাস করুন </h4>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <div class="trainer-area">
-              <div class="trainer-area__image">
-                <img src="~/assets/images/team/Zakir.jpg" alt="trainer" class="img-fluid">
-              </div>
-              <div class="trainer-area__info text-center">
-                <h5>জাকির হোসেন</h5>
-                <p>ট্রেইনার</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <div class="trainer-area">
-              <div class="trainer-area__image">
-                <img src="~/assets/images/team/Rashed.jpg" alt="trainer" class="img-fluid">
-              </div>
-              <div class="trainer-area__info text-center">
-                <h5>শেখ রাশেদ</h5>
-                <p>ট্রেইনার</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <div class="trainer-area">
-              <div class="trainer-area__image">
-                <img src="~/assets/images/team/jahid.jpg" alt="support" class="img-fluid">
-              </div>
-              <div class="trainer-area__info text-center">
-                <h5>জাহিদ ইসলাম</h5>
-                <p>সাপোর্ট</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <div class="trainer-area">
-              <div class="trainer-area__image">
-                <img src="~/assets/images/team/Partho.jpg" alt="support" class="img-fluid">
-              </div>
-              <div class="trainer-area__info text-center">
-                <h5>পার্থ হালদার</h5>
-                <p>সাপোর্ট</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Trainer section end -->
+    <Team />
   </div>
 </template>
 
 <script>
-// export default {};
+import Team from '~/components/Team'
+
+export default {
+  components: {
+    Team
+  }
+}
 </script>
 
 <style></style>

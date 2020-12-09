@@ -22,8 +22,7 @@
               <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <ul class="navbar-nav nav ml-auto">
                   <li class="nav-item">
-                    <nuxt-link class="nav-link active" to="/">হোম
-                    </nuxt-link>
+                    <nuxt-link class="nav-link" to="/"> হোম </nuxt-link>
                   </li>
                   <li class="nav-item">
                     <nuxt-link class="nav-link" to="/frontend-bootcamp"> ফ্রন্টএন্ড বুটক্যাম্প </nuxt-link>
@@ -74,12 +73,12 @@
             <ul class="footer__social-icon ml-0">
               <li>
                 <a href="https://www.facebook.com/codeshikhibd" target="__blank">
-                  <font-awesome-icon :icon="['fab', 'facebook-f']"/>
+                  <font-awesome-icon :icon="['fab', 'facebook-f']" />
                 </a>
               </li>
               <li>
                 <a href="https://github.com/codeshikhi" target="__blank">
-                  <font-awesome-icon :icon="['fab', 'github']"/>
+                  <font-awesome-icon :icon="['fab', 'github']" />
                 </a>
               </li>
             </ul>

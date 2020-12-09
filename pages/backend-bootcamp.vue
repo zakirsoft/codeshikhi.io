@@ -66,42 +66,42 @@
           <div class="col-lg-5 col-md-12 col-sm-12 mb-5">
             <div class="mb-5">
               <div class="icon-box mt-3">
-                <font-awesome-icon :icon="['fas', 'user']"/>
+                <font-awesome-icon :icon="['fas', 'user']" />
               </div>
               <h3> চমৎকার কিছু বৈশিষ্ট্য </h3>
               <p> এক নজরে দেখে নিন, বুটক্যাম্প এর আকর্ষনীয় কিছু বৈশিষ্ট্য </p>
             </div>
             <ul class="check-list">
               <li>
-                <font-awesome-icon :icon="['fas', 'check']"/>
+                <font-awesome-icon :icon="['fas', 'check']" />
                 <p> HTML </p>
               </li>
               <li>
-                <font-awesome-icon :icon="['fas', 'check']"/>
+                <font-awesome-icon :icon="['fas', 'check']" />
                 <p> CSS </p>
               </li>
               <li>
-                <font-awesome-icon :icon="['fas', 'check']"/>
+                <font-awesome-icon :icon="['fas', 'check']" />
                 <p> JavaScript </p>
               </li>
               <li>
-                <font-awesome-icon :icon="['fas', 'check']"/>
+                <font-awesome-icon :icon="['fas', 'check']" />
                 <p> Bootstrap </p>
               </li>
               <li>
-                <font-awesome-icon :icon="['fas', 'check']"/>
+                <font-awesome-icon :icon="['fas', 'check']" />
                 <p> SCSS </p>
               </li>
               <li>
-                <font-awesome-icon :icon="['fas', 'check']"/>
+                <font-awesome-icon :icon="['fas', 'check']" />
                 <p> React & Vue.js </p>
               </li>
               <li>
-                <font-awesome-icon :icon="['fas', 'check']"/>
+                <font-awesome-icon :icon="['fas', 'check']" />
                 <p> Git & Github </p>
               </li>
               <li>
-                <font-awesome-icon :icon="['fas', 'check']"/>
+                <font-awesome-icon :icon="['fas', 'check']" />
                 <p> Server Mangement </p>
               </li>
             </ul>
@@ -136,11 +136,11 @@
                       <p> PHP OOP </p>
                     </li>
                     <li>
-                      <font-awesome-icon :icon="['fas', 'check']"/>
+                      <font-awesome-icon :icon="['fas', 'check']" />
                       <p> Laravel </p>
                     </li>
                     <li>
-                      <font-awesome-icon :icon="['fas', 'check']"/>
+                      <font-awesome-icon :icon="['fas', 'check']" />
                       <p> REST API </p>
                     </li>
                     <li>
@@ -174,8 +174,8 @@
                     <h5>সম্পূর্ণ ৭২ ঘন্টা (৩ মাস)</h5>
                     <p>সপ্তাহে ৩ দিন ২ ঘন্টা করে</p>
                   </div>
-                  <a class="btn btn-primary btn-outline-primary" href="backend-bootcamp.html"> বিস্তারিত
-                    দেখুন </a>
+                  <nuxt-link class="btn btn-primary btn-outline-primary" to="/backend-bootcamp"> বিস্তারিত
+                    দেখুন</nuxt-link>
                 </div>
               </div>
 
@@ -206,7 +206,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="go__box-content">
               <span class="go_icon">
-                <font-awesome-icon :icon="['fas', 'user']"/>
+                <font-awesome-icon :icon="['fas', 'user']" />
               </span>
               <h6 class="go_title">
                 এক্সপার্টদের কাছ থেকে শিখুন
@@ -221,7 +221,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="go__box-content">
               <span class="go_icon">
-                <font-awesome-icon :icon="['fas', 'graduation-cap']"/>
+                <font-awesome-icon :icon="['fas', 'graduation-cap']" />
               </span>
               <h6 class="go_title">
                 ইন্টার্নশিপ সুবিধা
@@ -235,7 +235,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="go__box-content">
               <span class="go_icon">
-                <font-awesome-icon :icon="['fas', 'globe']"/>
+                <font-awesome-icon :icon="['fas', 'globe']" />
               </span>
               <h6 class="go_title">
                 বিনামুল্যে পোর্টফলিও ওয়েভসাইট
@@ -248,7 +248,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="go__box-content">
               <span class="go_icon">
-                <font-awesome-icon :icon="['fas', 'list']"/>
+                <font-awesome-icon :icon="['fas', 'list']" />
               </span>
               <h6 class="go_title">
                 বিনামুল্যে চিটশিট
@@ -262,7 +262,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="go__box-content">
               <span class="go_icon">
-                <font-awesome-icon :icon="['fas', 'dollar-sign']"/>
+                <font-awesome-icon :icon="['fas', 'dollar-sign']" />
               </span>
               <h6 class="go_title">
                 ফ্রিল্যান্সিং গাইডলাইন
@@ -276,7 +276,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="go__box-content">
               <span class="go_icon">
-                <font-awesome-icon :icon="['fas', 'briefcase']"/>
+                <font-awesome-icon :icon="['fas', 'briefcase']" />
               </span>
               <h6 class="go_title">
                 কর্পোরেট জব পেতে সাহায্য
@@ -395,7 +395,7 @@
               <div class="toggle active">
                 <div class="header bg-light-gray">
                   <div class="icon-group">
-                    <font-awesome-icon :icon="['fas', 'chevron-right']"/>
+                    <font-awesome-icon :icon="['fas', 'chevron-right']" />
                     <h6 class="text">PHP, OOP & Database</h6>
                   </div>
                   <h6 class="lecture-count">
@@ -405,35 +405,35 @@
                 <div class="content">
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Basics Part 1 - Introduction & Getting started </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Basics Part 2 - Condition, Loop, Functions </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> PHP OOP - All you need </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> MYSQL Basics </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Final Part - PHP OOP & MYSQL CRUD </h6>
                     </div>
                     <p class="count"> 2hrs </p>
@@ -443,7 +443,7 @@
               <div class="toggle">
                 <div class="header bg-light-gray">
                   <div class="icon-group">
-                    <font-awesome-icon :icon="['fas', 'chevron-right']"/>
+                    <font-awesome-icon :icon="['fas', 'chevron-right']" />
                     <h6 class="text"> Laravel Introduction & Basics </h6>
                   </div>
                   <h6 class="lecture-count">
@@ -453,21 +453,21 @@
                 <div class="content">
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Basics Part 1 - Introduction, Setup </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Basics Part 2 - MVC Architecture Practical Example </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Final Part - CRUD Application Project </h6>
                     </div>
                     <p class="count"> 2hrs </p>
@@ -477,7 +477,7 @@
               <div class="toggle">
                 <div class="header bg-light-gray">
                   <div class="icon-group">
-                    <font-awesome-icon :icon="['fas', 'chevron-right']"/>
+                    <font-awesome-icon :icon="['fas', 'chevron-right']" />
                     <h6 class="text">eCommerce Project Development</h6>
                   </div>
                   <h6 class="lecture-count">
@@ -487,21 +487,21 @@
                 <div class="content">
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text">Introduction</h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text">Introduction</h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text">Introduction</h6>
                     </div>
                     <p class="count"> 2hrs </p>
@@ -511,7 +511,7 @@
               <div class="toggle">
                 <div class="header bg-light-gray">
                   <div class="icon-group">
-                    <font-awesome-icon :icon="['fas', 'chevron-right']"/>
+                    <font-awesome-icon :icon="['fas', 'chevron-right']" />
                     <h6 class="text"> Vue.js Basics, Vue Router & Vuex </h6>
                   </div>
                   <h6 class="lecture-count">
@@ -521,35 +521,35 @@
                 <div class="content">
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Vue.js Introduction, CLI & Getting started </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Vue.js - Statement, List Rendering & Form Binding </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Vue Router - All you need </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Vuex - All you need </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Vue.js, Vue Router & Vuex - Combined Project </h6>
                     </div>
                     <p class="count"> 2hrs </p>
@@ -559,7 +559,7 @@
               <div class="toggle">
                 <div class="header bg-light-gray">
                   <div class="icon-group">
-                    <font-awesome-icon :icon="['fas', 'chevron-right']"/>
+                    <font-awesome-icon :icon="['fas', 'chevron-right']" />
                     <h6 class="text"> Vue.js & Laravel Project </h6>
                   </div>
                   <h6 class="lecture-count">
@@ -569,35 +569,35 @@
                 <div class="content">
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Project Setup </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> REST API & Vue CRUD Part 1 </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> REST API & Vue CRUD Part 2 </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> REST API & Vue CRUD Part 3 </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Laravel REST API and Vue.js Authentication </h6>
                     </div>
                     <p class="count"> 2hrs </p>
@@ -607,7 +607,7 @@
               <div class="toggle">
                 <div class="header bg-light-gray">
                   <div class="icon-group">
-                    <font-awesome-icon :icon="['fas', 'chevron-right']"/>
+                    <font-awesome-icon :icon="['fas', 'chevron-right']" />
                     <h6 class="text">Getting ready to serve</h6>
                   </div>
                   <h6 class="lecture-count">
@@ -617,28 +617,28 @@
                 <div class="content">
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Domain & Hosting Class </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Fiverr & Upwork Freelancing </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Cloud server & Laravel Setup </h6>
                     </div>
                     <p class="count"> 2hrs </p>
                   </div>
                   <div class="class">
                     <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']"/>
+                      <font-awesome-icon :icon="['fas', 'play-circle']" />
                       <h6 class="text"> Portfolio Buildup & Developer CV Making </h6>
                     </div>
                     <p class="count"> 2hrs </p>
@@ -651,66 +651,7 @@
       </div>
     </section>
     <!-- syllabus section end  -->
-    <!-- Trainer section start -->
-    <section class="trainer bg-light-gray">
-      <div class="container ">
-        <div class="row">
-          <div class="col-12">
-            <div class="trainer-title text-center">
-              <h6> আমাদের দক্ষ প্রশিক্ষক </h6>
-              <h4> পেশাদারদের বিশ্বাস করুন </h4>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <div class="trainer-area">
-              <div class="trainer-area__image">
-                <img src="~/assets/images/team/Zakir.jpg" alt="trainer" class="img-fluid">
-              </div>
-              <div class="trainer-area__info text-center">
-                <h5>জাকির হোসেন</h5>
-                <p>ট্রেইনার</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <div class="trainer-area">
-              <div class="trainer-area__image">
-                <img src="~/assets/images/team/Rashed.jpg" alt="trainer" class="img-fluid">
-              </div>
-              <div class="trainer-area__info text-center">
-                <h5>শেখ রাশেদ</h5>
-                <p>ট্রেইনার</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <div class="trainer-area">
-              <div class="trainer-area__image">
-                <img src="~/assets/images/team/jahid.jpg" alt="support" class="img-fluid">
-              </div>
-              <div class="trainer-area__info text-center">
-                <h5>জাহিদ ইসলাম</h5>
-                <p>সাপোর্ট</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-            <div class="trainer-area">
-              <div class="trainer-area__image">
-                <img src="~/assets/images/team/Partho.jpg" alt="support" class="img-fluid">
-              </div>
-              <div class="trainer-area__info text-center">
-                <h5>পার্থ দেবনাথ</h5>
-                <p>সাপোর্ট</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Trainer section end -->
+    <Team />
     <!-- FAQ section Start -->
     <section class="faq-area">
       <div class="container">
@@ -759,8 +700,12 @@
 </template>
 
 <script>
-export default {
+import Team from '~/components/Team'
 
+export default {
+  components: {
+    Team
+  }
 }
 </script>
 
