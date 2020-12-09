@@ -61,47 +61,47 @@
                 <!-- <p class="headline"> আপনি যা যা শিখবেন </p> -->
                 <ul class="check-list">
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>HTML</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>CSS</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>JavaScript</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>Bootstrap</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>SCSS</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>React & Vue.js</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>Git & Github</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>Server Mangement</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>Upwork Guidline</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>Fiverr Guidline</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>Resume Building</p>
                   </li>
                 </ul>
@@ -134,47 +134,47 @@
               <div class="body">
                 <ul class="check-list">
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>PHP</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>MySQL</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>PHP OOP</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>Laravel</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>REST API</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>Vue.js</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>Git & Github</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>Server Mangement</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>Upwork Guidline</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>Fiverr Guidline</p>
                   </li>
                   <li>
-                    <i class="fas fa-check"></i>
+                    <font-awesome-icon :icon="['fas', 'check']"/>
                     <p>Resume Building</p>
                   </li>
                 </ul>

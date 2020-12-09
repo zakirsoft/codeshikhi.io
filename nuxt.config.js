@@ -29,8 +29,17 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/fontawesome'
   ],
+
+  fontawesome: {
+    icons: {
+      solid: ['faCog', 'faAddressBook', 'faGlobe', 'faGraduationCap', 'faUser', 'faList', 'faDollarSign', 'faBriefcase', 'faCheck'],
+      regular: [],
+      brands: ['faFacebookF', 'faGithub', 'faInternetExplorer']
+    }
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [

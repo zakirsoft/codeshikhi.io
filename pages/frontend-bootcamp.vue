@@ -65,14 +65,6 @@
     <!--  how-we-go section start  -->
     <section class="go bg-dark">
       <div class="container">
-        <!-- <div class="row">
-              <div class="col-12">
-                  <div class="trainer-title text-center">
-                      <h6> কোর্স সিলেবাস </h6>
-                      <h4> ৩ মাসের কোর্স প্ল্যান </h4>
-                  </div>
-              </div>
-          </div> -->
         <div class="row">
           <div class="col-12">
             <div class="section__info">
@@ -85,7 +77,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="go__box-content">
               <span class="go_icon">
-                <i class="fas fa-user"></i>
+                <font-awesome-icon :icon="['fas', 'user']"/>
               </span>
               <h6 class="go_title">
                 এক্সপার্টদের কাছ থেকে শিখুন
@@ -100,7 +92,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="go__box-content">
               <span class="go_icon">
-                <i class="fas fa-graduation-cap"></i>
+                <font-awesome-icon :icon="['fas', 'graduation-cap']"/>
               </span>
               <h6 class="go_title">
                 ইন্টার্নশিপ সুবিধা
@@ -114,7 +106,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="go__box-content">
               <span class="go_icon">
-                <i class="fab fa-internet-explorer"></i>
+                <font-awesome-icon :icon="['fas', 'globe']"/>
               </span>
               <h6 class="go_title">
                 বিনামুল্যে পোর্টফলিও ওয়েভসাইট
@@ -127,7 +119,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="go__box-content">
               <span class="go_icon">
-                <i class="fas fa-list"></i>
+                <font-awesome-icon :icon="['fas', 'list']"/>
               </span>
               <h6 class="go_title">
                 বিনামুল্যে চিটশিট
@@ -141,7 +133,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="go__box-content">
               <span class="go_icon">
-                <i class="fas fa-dollar-sign"></i>
+                <font-awesome-icon :icon="['fas', 'dollar-sign']"/>
               </span>
               <h6 class="go_title">
                 ফ্রিল্যান্সিং গাইডলাইন
@@ -155,7 +147,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="go__box-content">
               <span class="go_icon">
-                <i class="fas fa-briefcase"></i>
+                <font-awesome-icon :icon="['fas', 'briefcase']"/>
               </span>
               <h6 class="go_title">
                 কর্পোরেট জব পেতে সাহায্য
