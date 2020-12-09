@@ -254,31 +254,31 @@
           <div class="col-lg-7 col-md-6 col-sm-12">
             <div class="platform__list">
               <div class="platform__logo platform__logo-one">
-                  <img src="~/assets/images/technology/php.svg" alt="logo">
+                <img src="~/assets/images/technology/php.svg" alt="logo">
               </div>
               <div class="platform__logo platform__logo-two">
-                  <img src="~/assets/images/technology/mysql.svg" alt="logo">
+                <img src="~/assets/images/technology/mysql.svg" alt="logo">
               </div>
               <div class="platform__logo platform__logo-three">
-                  <img src="~/assets/images/technology/laravel.svg" alt="logo">
+                <img src="~/assets/images/technology/laravel.svg" alt="logo">
               </div>
               <div class="platform__logo platform__logo-four">
-                  <img src="~/assets/images/technology/vue.svg" alt="logo">
+                <img src="~/assets/images/technology/vue.svg" alt="logo">
               </div>
               <div class="platform__logo platform__logo-five">
-                  <img src="~/assets/images/technology/nuxt.svg" alt="logo">
+                <img src="~/assets/images/technology/nuxt.svg" alt="logo">
               </div>
               <div class="platform__logo platform__logo-six">
-                  <img src="~/assets/images/technology/ubuntu.svg" alt="logo">
+                <img src="~/assets/images/technology/ubuntu.svg" alt="logo">
               </div>
               <div class="platform__logo platform__logo-seven">
-                  <img src="~/assets/images/technology/git.svg" alt="logo">
+                <img src="~/assets/images/technology/git.svg" alt="logo">
               </div>
               <div class="platform__logo platform__logo-eight">
-                  <img src="~/assets/images/technology/github.svg" alt="logo">
+                <img src="~/assets/images/technology/github.svg" alt="logo">
               </div>
               <div class="platform__logo platform__logo-nine">
-                  <img src="~/assets/images/technology/vs-code.svg" alt="logo">
+                <img src="~/assets/images/technology/vs-code.svg" alt="logo">
               </div>
             </div>
           </div>
@@ -333,10 +333,11 @@
           </div>
           <div class="col-lg-6 col-md-12">
             <div class="syllabus-data">
-              <div class="toggle active">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 1 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(1)">
                   <div class="icon-group">
-                    <font-awesome-icon :icon="['fas', 'chevron-right']" />
+                    <font-awesome-icon v-if="sectionId == 1" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       PHP, OOP & Database
                     </h6>
@@ -403,10 +404,11 @@
                   </div>
                 </div>
               </div>
-              <div class="toggle">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 2 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(2)">
                   <div class="icon-group">
-                    <font-awesome-icon :icon="['fas', 'chevron-right']" />
+                    <font-awesome-icon v-if="sectionId == 2" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       Laravel Introduction & Basics
                     </h6>
@@ -451,10 +453,11 @@
                   </div>
                 </div>
               </div>
-              <div class="toggle">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 3 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(3)">
                   <div class="icon-group">
-                    <font-awesome-icon :icon="['fas', 'chevron-right']" />
+                    <font-awesome-icon v-if="sectionId == 3" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       eCommerce Project Development
                     </h6>
@@ -499,10 +502,11 @@
                   </div>
                 </div>
               </div>
-              <div class="toggle">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 4 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(4)">
                   <div class="icon-group">
-                    <font-awesome-icon :icon="['fas', 'chevron-right']" />
+                    <font-awesome-icon v-if="sectionId == 4" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       Vue.js Basics, Vue Router & Vuex
                     </h6>
@@ -569,10 +573,11 @@
                   </div>
                 </div>
               </div>
-              <div class="toggle">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 5 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(5)">
                   <div class="icon-group">
-                    <font-awesome-icon :icon="['fas', 'chevron-right']" />
+                    <font-awesome-icon v-if="sectionId == 5" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       Vue.js & Laravel Project
                     </h6>
@@ -639,10 +644,11 @@
                   </div>
                 </div>
               </div>
-              <div class="toggle">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 6 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(6)">
                   <div class="icon-group">
-                    <font-awesome-icon :icon="['fas', 'chevron-right']" />
+                    <font-awesome-icon v-if="sectionId == 6" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       Getting ready to serve
                     </h6>
@@ -704,7 +710,7 @@
       </div>
     </section>
     <!-- syllabus section end  -->
-    <Team />
+    <Team class="bg-light-gray" />
     <!-- FAQ section Start -->
     <section class="faq-area">
       <div class="container">
@@ -764,6 +770,16 @@ import Team from '~/components/Team'
 export default {
   components: {
     Team
+  },
+  data () {
+    return {
+      sectionId: 1
+    }
+  },
+  methods: {
+    setSectionId (id) {
+      this.sectionId = id
+    }
   }
 }
 </script>

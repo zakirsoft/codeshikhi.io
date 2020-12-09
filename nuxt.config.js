@@ -40,7 +40,7 @@ export default {
 
   fontawesome: {
     icons: {
-      solid: ['faCog', 'faAddressBook', 'faGlobe', 'faGraduationCap', 'faUser', 'faList', 'faDollarSign', 'faBriefcase', 'faCheck', 'faPlayCircle', 'faChevronRight', 'faCode', 'faRocket', 'faCalendar'],
+      solid: ['faCog', 'faAddressBook', 'faGlobe', 'faGraduationCap', 'faUser', 'faList', 'faDollarSign', 'faBriefcase', 'faCheck', 'faPlayCircle', 'faChevronRight', 'faCode', 'faRocket', 'faCalendar', 'faChevronDown'],
       regular: [],
       brands: ['faFacebookF', 'faGithub', 'faInternetExplorer']
     }

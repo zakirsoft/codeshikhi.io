@@ -14,11 +14,14 @@
                 আমাদের ক্যারিয়ার ডেভেলমেন্ট বুটক্যাম্প ।
               </p>
               <div class="banner__button mt-5 mb-2">
-                <a class="btn btn-primary btn-wide mr-4 mb-2" href="frontend-bootcamp.html">ফ্রন্টএন্ড বুটক্যাম্প
-                  <i class="fas fa-angle-right fa-sm ml-1" /></a>
-                <a class="btn btn-dark btn-wide mb-2" href="backend-bootcamp.html">
+                <nuxt-link class="btn btn-primary btn-wide mr-4 mb-2" to="/frontend-bootcamp">
+                  ফ্রন্টএন্ড বুটক্যাম্প
+                  <i class="fas fa-angle-right fa-sm ml-1" />
+                </nuxt-link>
+                <nuxt-link class="btn btn-dark btn-wide mb-2" to="/backend-bootcamp">
                   ব্যাকএন্ড বুটক্যাম্প
-                  <i class="fas fa-angle-right fa-sm ml-1" /></a>
+                  <i class="fas fa-angle-right fa-sm ml-1" />
+                </nuxt-link>
               </div>
               <!-- <span class="banner__small">Start free trial. * No credit card required.</span> -->
             </div>

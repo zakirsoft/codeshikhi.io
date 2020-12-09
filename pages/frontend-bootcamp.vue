@@ -88,7 +88,7 @@
                 <div class="info">
                   <div class="d-flex flex-wrap justify-content-between align-items-center">
                     <h4 class="price">
-                      5500TK
+                      3500TK
                     </h4>
                     <a href="#" class="bg-dark btn btn-primary">Enroll Now</a>
                   </div>
@@ -246,7 +246,7 @@
                 <img src="~/assets/images/technology/bootstrap.svg" alt="logo">
               </div>
               <div class="platform__logo platform__logo-five">
-                <img src="~/assets/images/technology/scss.svg" alt="logo">
+                <img src="~/assets/images/technology/sass.svg" alt="logo">
               </div>
               <div class="platform__logo platform__logo-six">
                 <img src="~/assets/images/technology/git.svg" alt="logo">
@@ -322,10 +322,11 @@
           </div>
           <div class="col-12 col-md-7">
             <div class="syllabus-data">
-              <div class="toggle active">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 1 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(1)">
                   <div class="icon-group">
-                    <i class="fas fa-chevron-right down-arrow" />
+                    <font-awesome-icon v-if="sectionId == 1" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       HTML- Hyper Text Markup Language
                     </h6>
@@ -403,10 +404,11 @@
                   </div>
                 </div>
               </div>
-              <div class="toggle">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 2 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(2)">
                   <div class="icon-group">
-                    <i class="fas fa-chevron-right down-arrow" />
+                    <font-awesome-icon v-if="sectionId == 2" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       &nbsp;CSS - Cascading Style Sheets
                     </h6>
@@ -506,10 +508,11 @@
                   </div>
                 </div>
               </div>
-              <div class="toggle">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 3 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(3)">
                   <div class="icon-group">
-                    <i class="fas fa-chevron-right down-arrow" />
+                    <font-awesome-icon v-if="sectionId == 3" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       JavaScript & Jquery
                     </h6>
@@ -609,10 +612,11 @@
                   </div>
                 </div>
               </div>
-              <div class="toggle">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 4 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(4)">
                   <div class="icon-group">
-                    <i class="fas fa-chevron-right down-arrow" />
+                    <font-awesome-icon v-if="sectionId == 4" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       Bootstrap
                     </h6>
@@ -668,10 +672,11 @@
                   </div>
                 </div>
               </div>
-              <div class="toggle">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 5 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(5)">
                   <div class="icon-group">
-                    <i class="fas fa-chevron-right down-arrow" />
+                    <font-awesome-icon v-if="sectionId == 5" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       Projects
                     </h6>
@@ -727,10 +732,11 @@
                   </div>
                 </div>
               </div>
-              <div class="toggle">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 6 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(6)">
                   <div class="icon-group">
-                    <i class="fas fa-chevron-right down-arrow" />
+                    <font-awesome-icon v-if="sectionId == 6" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       Git & Github
                     </h6>
@@ -753,10 +759,11 @@
                   </div>
                 </div>
               </div>
-              <div class="toggle">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 7 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(7)">
                   <div class="icon-group">
-                    <i class="fas fa-chevron-right down-arrow" />
+                    <font-awesome-icon v-if="sectionId == 7" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       Market Places
                     </h6>
@@ -790,10 +797,11 @@
                   </div>
                 </div>
               </div>
-              <div class="toggle">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 8 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(8)">
                   <div class="icon-group">
-                    <i class="fas fa-chevron-right down-arrow" />
+                    <font-awesome-icon v-if="sectionId == 8" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       Resume Building
                     </h6>
@@ -817,10 +825,11 @@
                 </div>
               </div>
 
-              <div class="toggle">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 9 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(9)">
                   <div class="icon-group">
-                    <i class="fas fa-chevron-right down-arrow" />
+                    <font-awesome-icon v-if="sectionId == 9" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       React & Vue
                     </h6>
@@ -843,10 +852,11 @@
                   </div>
                 </div>
               </div>
-              <div class="toggle">
-                <div class="header bg-light-gray">
+              <div class="toggle" :class="sectionId == 10 ? 'active': ''">
+                <div class="header bg-light-gray" @click="setSectionId(10)">
                   <div class="icon-group">
-                    <i class="fas fa-chevron-right down-arrow" />
+                    <font-awesome-icon v-if="sectionId == 10" :icon="['fas', 'chevron-down']" />
+                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
                     <h6 class="text">
                       Php & Sql
                     </h6>
@@ -875,7 +885,7 @@
       </div>
     </section>
     <!-- syllabus section end  -->
-    <Team />
+    <Team class="bg-light-gray" />
     <!-- FAQ section Start -->
     <section class="faq-area">
       <div class="container">
@@ -935,6 +945,16 @@ import Team from '~/components/Team'
 export default {
   components: {
     Team
+  },
+  data () {
+    return {
+      sectionId: 1
+    }
+  },
+  methods: {
+    setSectionId (id) {
+      this.sectionId = id
+    }
   }
 }
 </script>
