@@ -28,12 +28,12 @@
                     </nuxt-link>
                   </li>
                   <li class="nav-item">
-                    <nuxt-link class="nav-link" to="/frontend-bootcamp">
+                    <nuxt-link class="nav-link" :to="{ name: 'frontend-bootcamp' }">
                       ফ্রন্টএন্ড বুটক্যাম্প
                     </nuxt-link>
                   </li>
                   <li class="nav-item">
-                    <nuxt-link class="nav-link" to="/backend-bootcamp">
+                    <nuxt-link class="nav-link" :to="{ name: 'backend-bootcamp' }">
                       ব্যাকএন্ড বুটক্যাম্প
                     </nuxt-link>
                   </li>
@@ -58,7 +58,7 @@
                 যোগাযোগ করবে, আপনার ভর্তির নিশ্চিত ব্যাপারে
               </p>
             </div>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeEBvQDWwXKqxM5rph_JMviWpMHqUOWPrk_TP_kEPqS0PnBVQ/viewform" class="btn btn-light btn-lg"> আপনার সিট বুক করুন </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeEBvQDWwXKqxM5rph_JMviWpMHqUOWPrk_TP_kEPqS0PnBVQ/viewform" class="btn btn-light"> আপনার সিট বুক করুন </a>
           </div>
         </div>
       </section>
@@ -81,7 +81,7 @@
                 </nuxt-link>
               </li>
               <li>
-                <nuxt-link to="/frontend-bootcamp">
+                <nuxt-link :to="{ name: 'frontend-bootcamp' }">
                   ফ্রন্টএন্ড বুটক্যাম্প
                 </nuxt-link>
               </li>

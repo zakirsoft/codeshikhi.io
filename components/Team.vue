@@ -14,7 +14,7 @@
         <div class="col-12 col-sm-6 col-md-6 col-lg-3">
           <div class="trainer-area">
             <div class="trainer-area__image">
-              <img src="~/assets/images/team/Zakir.jpg" alt="trainer" class="img-fluid">
+              <img src="~/assets/images/team/zakir.jpg" alt="trainer" class="img-fluid">
             </div>
             <div class="trainer-area__info text-center">
               <h5>জাকির হোসেন</h5>
@@ -25,7 +25,7 @@
         <div class="col-12 col-sm-6 col-md-6 col-lg-3">
           <div class="trainer-area">
             <div class="trainer-area__image">
-              <img src="~/assets/images/team/Rashed.jpg" alt="trainer" class="img-fluid">
+              <img src="~/assets/images/team/ariful.jpg" alt="trainer" class="img-fluid">
             </div>
             <div class="trainer-area__info text-center">
               <h5>শেখ রাশেদ</h5>
@@ -47,7 +47,7 @@
         <div class="col-12 col-sm-6 col-md-6 col-lg-3">
           <div class="trainer-area">
             <div class="trainer-area__image">
-              <img src="~/assets/images/team/Partho.jpg" alt="support" class="img-fluid">
+              <img src="~/assets/images/team/partho.jpg" alt="support" class="img-fluid">
             </div>
             <div class="trainer-area__info text-center">
               <h5>পার্থ হালদার</h5>

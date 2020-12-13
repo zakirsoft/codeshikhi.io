@@ -1,13 +1,16 @@
 .btn-primary {
 	color: #fff;
 	background-color: #377dff;
-
 	&:hover {
 		box-shadow: 0 5px 10px 0px rgba($dark, 0.2);
 		// background-color: #62d630;
 	}
 }
-
+.btn-light {
+     border-radius: 0px;
+    &:hover {
+    }
+}
 /* ====  Responsive Css will be go here ==== */
 
 /* === For Small Device ( 0px - 767px) == */

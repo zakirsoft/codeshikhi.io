@@ -20,7 +20,7 @@
                 <div class="d-flex align-items-center mr-4">
                   <div class="avatar-group">
                     <span class="avatar avatar-xs avatar-circle">
-                      <img class="avatar-img" src="~/assets/images/team/Rashed.jpg" alt="Image Description">
+                      <img class="avatar-img" src="~/assets/images/team/zakir.jpg" alt="Image Description">
                     </span>
                   </div>
                   <div class="pl-2">
@@ -175,7 +175,7 @@
                 বিনামুল্যে চিটশিট
               </h6>
               <div class="go_brief">
-                HTML, CSS, JavaScript, Git, VSCode, Bootstrap</b> এর যাবতীয় চিটশিট প্রদান করা হবে। যা কোর্স চলাকালীন সময়ে
+                <b>HTML, CSS, JavaScript, Git, VSCode, Bootstrap </b> এর যাবতীয় চিটশিট প্রদান করা হবে। যা কোর্স চলাকালীন সময়ে
                 শিক্ষার্থীদের সহায়ক হবে।
               </div>
             </div>

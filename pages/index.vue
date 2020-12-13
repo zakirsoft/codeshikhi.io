@@ -14,11 +14,11 @@
                 আমাদের ক্যারিয়ার ডেভেলমেন্ট বুটক্যাম্প ।
               </p>
               <div class="banner__button mt-5 mb-2">
-                <nuxt-link class="btn btn-primary btn-wide mr-4 mb-2" to="/frontend-bootcamp">
+                <nuxt-link class="btn btn-primary btn-wide mr-4 mb-2" :to="{ name: 'frontend-bootcamp' }">
                   ফ্রন্টএন্ড বুটক্যাম্প
                   <i class="fas fa-angle-right fa-sm ml-1" />
                 </nuxt-link>
-                <nuxt-link class="btn btn-dark btn-wide mb-2" to="/backend-bootcamp">
+                <nuxt-link class="btn btn-dark btn-wide mb-2" :to="{ name: 'backend-bootcamp' }">
                   ব্যাকএন্ড বুটক্যাম্প
                   <i class="fas fa-angle-right fa-sm ml-1" />
                 </nuxt-link>
@@ -140,7 +140,7 @@
                   <h5>সম্পূর্ণ ৭২ ঘন্টা (৩ মাস)</h5>
                   <p>সপ্তাহে ৩ দিন ২ ঘন্টা করে</p>
                 </div>
-                <nuxt-link class="btn btn-primary btn-outline-primary" to="/frontend-bootcamp">
+                <nuxt-link class="btn btn-primary btn-outline-primary" :to="{ name: 'frontend-bootcamp' }">
                   বিস্তারিত দেখুন
                 </nuxt-link>
               </div>
@@ -237,7 +237,7 @@
                   <h5>সম্পূর্ণ ৭২ ঘন্টা (৩ মাস)</h5>
                   <p>সপ্তাহে ৩ দিন ২ ঘন্টা করে</p>
                 </div>
-                <nuxt-link class="btn btn-primary btn-outline-primary" to="/backend-bootcamp">
+                <nuxt-link class="btn btn-primary btn-outline-primary" :to="{ name: 'backend-bootcamp' }">
                   বিস্তারিত দেখুন
                 </nuxt-link>
               </div>
