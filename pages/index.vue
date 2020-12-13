@@ -16,11 +16,11 @@
               <div class="banner__button mt-5 mb-2">
                 <nuxt-link class="btn btn-primary btn-wide mr-4 mb-2" :to="{ name: 'frontend-bootcamp' }">
                   ফ্রন্টএন্ড বুটক্যাম্প
-                  <i class="fas fa-angle-right fa-sm ml-1" />
+                  <font-awesome-icon class="ml-1" :icon="['fas', 'angle-right']" />
                 </nuxt-link>
                 <nuxt-link class="btn btn-dark btn-wide mb-2" :to="{ name: 'backend-bootcamp' }">
                   ব্যাকএন্ড বুটক্যাম্প
-                  <i class="fas fa-angle-right fa-sm ml-1" />
+                  <font-awesome-icon class="ml-1" :icon="['fas', 'angle-right']" />
                 </nuxt-link>
               </div>
               <!-- <span class="banner__small">Start free trial. * No credit card required.</span> -->

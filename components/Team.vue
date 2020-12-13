@@ -28,8 +28,8 @@
               <img src="~/assets/images/team/ariful.jpg" alt="trainer" class="img-fluid">
             </div>
             <div class="trainer-area__info text-center">
-              <h5>শেখ রাশেদ</h5>
-              <p>ট্রেইনার</p>
+              <h5>আরিফুল ইসলাম </h5>
+              <p>সাপোর্ট</p>
             </div>
           </div>
         </div>

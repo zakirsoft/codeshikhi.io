@@ -27,10 +27,10 @@
                     Created by <a class="link-underline ml-1" target="_blank" href="https://zakirhossen.com"> Zakir Hossen </a>
                   </div>
                   <p class="mb-0 ml-3 mr-3">
-                    <i class="fas fa-rocket mr-1" /> 2571 Student enrolled
+                    <font-awesome-icon :icon="['fas', 'rocket']" /> 2571 Student enrolled
                   </p>
                   <p class="mb-0">
-                    <i class="fas fa-calendar mr-1" /> Last Updated: 9th December, 2020
+                    <font-awesome-icon :icon="['fas', 'calendar']" /> Last Updated: 9th December, 2020
                   </p>
                 </div>
                 <!-- End Authors -->
