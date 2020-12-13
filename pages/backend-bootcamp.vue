@@ -21,7 +21,7 @@
                 <div class="d-flex align-items-center mr-4">
                   <div class="avatar-group">
                     <span class="avatar avatar-xs avatar-circle">
-                      <img class="avatar-img" src="~/assets/images/team/Zakir.jpg" alt="Image Description">
+                      <img class="avatar-img" src="~/assets/images/team/zakir.jpg" alt="Image Description">
                     </span>
                   </div>
                   <div class="pl-2">
