@@ -94,7 +94,7 @@
                     <a href="#" class="bg-dark btn btn-primary">Enroll Now</a>
                   </div>
                   <div class="start-date">
-                    পরবর্তী ব্যাচের সময় সূচি রেজিস্ট্রেশন শুরু: জানুয়ারি ১, ২০২১ ।
+                    পরবর্তী ব্যাচের সময় সূচি: জানুয়ারি ১, ২০২১ ।
                   </div>
                 </div>
               </div>
