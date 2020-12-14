@@ -27,10 +27,10 @@
                     Created by <a class="link-underline ml-1" target="_blank" href="https://zakirhossen.com"> Zakir Hossen </a>
                   </div>
                   <p class="mb-0 ml-3 mr-3">
-                    <font-awesome-icon :icon="['fas', 'rocket']" /> 2571 Student enrolled
+                    <font-awesome-icon :icon="['fas', 'rocket']" /> ২৫৭১ ছাত্র ভর্তি হয়েছে
                   </p>
                   <p class="mb-0">
-                    <font-awesome-icon :icon="['fas', 'calendar']" /> Last Updated: 9th December, 2020
+                    <font-awesome-icon :icon="['fas', 'calendar']" /> শেষ আপডেট: ১৪ই ডিসেম্বর
                   </p>
                 </div>
                 <!-- End Authors -->
@@ -54,7 +54,7 @@
           <div class="col-lg-5 col-md-12 col-sm-12 mb-5">
             <div class="mb-5">
               <div class="icon-box mt-3">
-                <font-awesome-icon :icon="['fas', 'user']" />
+                <font-awesome-icon :icon="['fas', 'book']" />
               </div>
               <h3> চমৎকার কিছু বৈশিষ্ট্য </h3>
               <p> এক নজরে দেখে নিন, বুটক্যাম্প এর আকর্ষনীয় কিছু বৈশিষ্ট্য </p>
@@ -64,43 +64,43 @@
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p> Skilled Trainer </p>
+                <p> দক্ষ প্রশিক্ষক </p>
               </li>
               <li>
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p> 25+ Projects </p>
+                <p> ২৫+ প্রজেক্টস </p>
               </li>
               <li>
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p> Live Project </p>
+                <p> লাইভ প্রজেক্টস </p>
               </li>
               <li>
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p> Provide Class Video </p>
+                <p> প্রত্যেক ক্লাস ভিডিও </p>
               </li>
               <li>
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p> Internship Facilities </p>
+                <p> প্রশ্নাত্তর পর্ব প্রতি ক্লাস শেষে </p>
               </li>
               <li>
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p> Online Student Support </p>
+                <p> স্টুডেন্টস সাপোর্ট সুবিধা </p>
               </li>
             </ul>
           </div>
           <div class="col-lg-7 col-md-12 col-sm-12">
             <div class="position-relative">
-              <div class="bootcamp-preview">
+              <div class="bootcamp-preview shadow">
                 <div class="image">
                   <img src="~/assets/images/bootcamp.jpg" alt="" class="img-fluid">
                 </div>
@@ -109,10 +109,10 @@
                     <h4 class="price">
                       ৫৫০০ টাকা
                     </h4>
-                    <a href="#" class="bg-dark btn btn-primary">Enroll Now</a>
+                    <a href="#" class="bg-dark btn btn-primary"> ক্লাসে অংশগ্রহন করুন </a>
                   </div>
                   <div class="start-date">
-                    পরবর্তী ব্যাচের সময় সূচি : জানুয়ারি ১, ২০২১ ।
+                    পরবর্তী ব্যাচের সময় সূচি : ১ই জানুয়ারি, ২০২১ ।
                   </div>
                 </div>
               </div>
@@ -230,7 +230,7 @@
         <div class="row pt-5">
           <div class="col-12">
             <ul class="go__btns">
-              <li><a href="#" class="btn btn-primary"> আপনার সিট টি বুক করুন </a></li>
+              <li><a href="#footer" class="btn btn-primary"> আপনার সিট টি বুক করুন </a></li>
               <li><a href="#">or</a></li>
               <li><a href="#syllabus" class="btn btn-primary"> সিলেবাস দেখুন </a></li>
             </ul>
