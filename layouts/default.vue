@@ -65,7 +65,7 @@
       <!-- Got Question section End -->
 
       <!-- footer section start -->
-      <footer class="footer" id="footer">
+      <footer id="footer" class="footer">
         <div class="container">
           <!-- start from here  -->
           <div class="footer-content">

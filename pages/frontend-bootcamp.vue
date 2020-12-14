@@ -6,7 +6,9 @@
         <div class="row align-items-center">
           <div class="col-md-8">
             <div class="subbanner__content">
-              <div class="btn-xs bg-color d-inline-block btn-pill text-uppercase mb-2"> Trending </div>
+              <div class="btn-xs bg-color d-inline-block btn-pill text-uppercase mb-2">
+                Trending
+              </div>
               <h1 class="subbanner__header">
                 মাস্টারিং ফ্রন্টএন্ড ডেভেলপার বুটক্যাম্প
               </h1>
