@@ -109,118 +109,9 @@
       </div>
     </section>
     <!-- features section End -->
-    <!--  how-we-go section start  -->
-    <section class="go bg-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="section__info">
-              <h2 class="section_title">
-                বোনাস সুবিধা গুলো
-              </h2>
-              <div class="section_brief">
-                আমাদের চমৎকার কিছু কার্যক্রম শুধু মাত্র কোর্সে ভর্তি হয়ে আপনিও পেতে পারেন
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="go__box-content">
-              <span class="go_icon">
-                <font-awesome-icon :icon="['fas', 'user']" />
-              </span>
-              <h6 class="go_title">
-                এক্সপার্টদের কাছ থেকে শিখুন
-              </h6>
-              <div class="go_brief">
-                অভিজ্ঞতা সর্বদাই গুরুত্বপূর্ণ ভূমিকা পালন করে, আর আপনি সঠিক জায়গায় এসেছেন কারন আমাদের প্রশিক্ষকদের রয়েছে
-                <b>৪+</b> বছরের বেশী কাজ করার অভিজ্ঞতা।
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="go__box-content">
-              <span class="go_icon">
-                <font-awesome-icon :icon="['fas', 'graduation-cap']" />
-              </span>
-              <h6 class="go_title">
-                ইন্টার্নশিপ সুবিধা
-              </h6>
-              <div class="go_brief">
-                সঠিক ভাবে কোর্স সম্পূর্ণ করার পর, প্রত্যেক ব্যাচ থেকে আমরা ২ জন ছাত্র/ছাত্রী কে ইন্টার্নশিপ সুবিধা প্রদান
-                করব ।
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="go__box-content">
-              <span class="go_icon">
-                <font-awesome-icon :icon="['fas', 'globe']" />
-              </span>
-              <h6 class="go_title">
-                বিনামুল্যে পোর্টফলিও ওয়েভসাইট
-              </h6>
-              <div class="go_brief">
-                আমরা আপনার পোর্টফলিও তৈরী করতে সাহায্য করব এবং আপনাকে একটি পোর্টফলিও ওয়েভসাইট ডিজাইন ফ্রিতে দেওয়া হবে ।
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="go__box-content">
-              <span class="go_icon">
-                <font-awesome-icon :icon="['fas', 'list']" />
-              </span>
-              <h6 class="go_title">
-                বিনামুল্যে চিটশিট
-              </h6>
-              <div class="go_brief">
-                <b>HTML, CSS, JavaScript, Git, VSCode, Bootstrap </b> এর যাবতীয় চিটশিট প্রদান করা হবে। যা কোর্স চলাকালীন সময়ে
-                শিক্ষার্থীদের সহায়ক হবে।
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="go__box-content">
-              <span class="go_icon">
-                <font-awesome-icon :icon="['fas', 'dollar-sign']" />
-              </span>
-              <h6 class="go_title">
-                ফ্রিল্যান্সিং গাইডলাইন
-              </h6>
-              <div class="go_brief">
-                ফ্রিল্যান্সিং সম্পর্কে ফ্রিল্যান্সারদের থেকে সেরা গাইডলাইন আর কেও দিতে পারবে না। আমাদের প্রশিক্ষকদের রয়েছে
-                ফ্রিল্যান্সিং এর অভিজ্ঞতা ।
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="go__box-content">
-              <span class="go_icon">
-                <font-awesome-icon :icon="['fas', 'briefcase']" />
-              </span>
-              <h6 class="go_title">
-                কর্পোরেট জব পেতে সাহায্য
-              </h6>
-              <div class="go_brief">
-                এই বুটক্যাম্পটি আপনাকে সিভি, পোর্টফলিও তৈরীতে এবং কর্পোরেট জব এর জন্য প্রস্তুত হতে সহযোগিতা করবে ।
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="row pt-5">
-          <div class="col-12">
-            <ul class="go__btns">
-              <li><a href="#" class="btn btn-primary"> আপনার সিট টি বুক করুন </a></li>
-              <li><a href="#">or</a></li>
-              <li><a href="#syllabus" class="btn btn-primary"> সিলেবাস দেখুন </a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--  how-we-go section end  -->
+    <Bonus />
+
     <!-- platform section start -->
     <section class="platform">
       <div class="container">
@@ -321,629 +212,29 @@
             </div>
           </div>
           <div class="col-12 col-md-7">
-            <div class="syllabus-data">
-              <div class="toggle" :class="sectionId == 1 ? 'active': ''">
-                <div class="header bg-light-gray" @click="setSectionId(1)">
-                  <div class="icon-group">
-                    <font-awesome-icon v-if="sectionId == 1" :icon="['fas', 'chevron-down']" />
-                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
-                    <h6 class="text">
-                      HTML- Hyper Text Markup Language
-                    </h6>
-                  </div>
-                  <h6 class="lecture-count">
-                    6 Lectures
-                  </h6>
-                </div>
-                <div class="content">
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        &nbsp;Welcome - Introduction of Html, Environment Setup
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        &nbsp;Basic Tags & Their Attributes
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        &nbsp;Html Basic & nested Tables
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        &nbsp;Html Forms
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        &nbsp;Semantic Tags
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        &nbsp;Section-End Final Project & Overview of HTML
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="toggle" :class="sectionId == 2 ? 'active': ''">
-                <div class="header bg-light-gray" @click="setSectionId(2)">
-                  <div class="icon-group">
-                    <font-awesome-icon v-if="sectionId == 2" :icon="['fas', 'chevron-down']" />
-                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
-                    <h6 class="text">
-                      &nbsp;CSS - Cascading Style Sheets
-                    </h6>
-                  </div>
-                  <h6 class="lecture-count">
-                    8 Lectures
-                  </h6>
-                </div>
-                <div class="content">
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        &nbsp;Welcome - Introduction of CSS, Environment Setup
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        &nbsp;CSS - Units & Spacing
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        &nbsp;CSS - Display, Backgrounds & Pseudo (classes,Elements)
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        &nbsp;CSS - Positions
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        &nbsp;CSS - Flexbox
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        &nbsp;CSS - Animations
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        &nbsp;CSS - Media Query
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Section-End Final Project & Overview of CSS
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="toggle" :class="sectionId == 3 ? 'active': ''">
-                <div class="header bg-light-gray" @click="setSectionId(3)">
-                  <div class="icon-group">
-                    <font-awesome-icon v-if="sectionId == 3" :icon="['fas', 'chevron-down']" />
-                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
-                    <h6 class="text">
-                      JavaScript & Jquery
-                    </h6>
-                  </div>
-                  <h6 class="lecture-count">
-                    8 Lectures
-                  </h6>
-                </div>
-                <div class="content">
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Welcome - Introduction of JavaScript & Jquery, Environment Setup
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        JavaScript Variable & DataTypes
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Logical Operators & Expression
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Conditional Statements & objects
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Functions
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        DOM - Document Object Model
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Jquery & Plugins
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Section-End Final Project & Overview of javaScript
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="toggle" :class="sectionId == 4 ? 'active': ''">
-                <div class="header bg-light-gray" @click="setSectionId(4)">
-                  <div class="icon-group">
-                    <font-awesome-icon v-if="sectionId == 4" :icon="['fas', 'chevron-down']" />
-                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
-                    <h6 class="text">
-                      Bootstrap
-                    </h6>
-                  </div>
-                  <h6 class="lecture-count">
-                    4 Lectures
-                  </h6>
-                </div>
-                <div class="content">
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Welcome - Introduction of Bootstrap, Environment Setup
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Bootstrap Components Customizations & Uses
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Bootstrap Grid Layout
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        REST API & Vue CRUD Part 3
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="toggle" :class="sectionId == 5 ? 'active': ''">
-                <div class="header bg-light-gray" @click="setSectionId(5)">
-                  <div class="icon-group">
-                    <font-awesome-icon v-if="sectionId == 5" :icon="['fas', 'chevron-down']" />
-                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
-                    <h6 class="text">
-                      Projects
-                    </h6>
-                  </div>
-                  <h6 class="lecture-count">
-                    4 Lectures
-                  </h6>
-                </div>
-                <div class="content">
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Psd to html
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        XD to html
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        figma to html
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Build Portfolio Site
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="toggle" :class="sectionId == 6 ? 'active': ''">
-                <div class="header bg-light-gray" @click="setSectionId(6)">
-                  <div class="icon-group">
-                    <font-awesome-icon v-if="sectionId == 6" :icon="['fas', 'chevron-down']" />
-                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
-                    <h6 class="text">
-                      Git & Github
-                    </h6>
-                  </div>
-                  <h6 class="lecture-count">
-                    1 Lectures
-                  </h6>
-                </div>
-                <div class="content">
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        git & github Configuration
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="toggle" :class="sectionId == 7 ? 'active': ''">
-                <div class="header bg-light-gray" @click="setSectionId(7)">
-                  <div class="icon-group">
-                    <font-awesome-icon v-if="sectionId == 7" :icon="['fas', 'chevron-down']" />
-                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
-                    <h6 class="text">
-                      Market Places
-                    </h6>
-                  </div>
-                  <h6 class="lecture-count">
-                    2 Lectures
-                  </h6>
-                </div>
-                <div class="content">
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Fiverr Market Place
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Upwork Market Place
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="toggle" :class="sectionId == 8 ? 'active': ''">
-                <div class="header bg-light-gray" @click="setSectionId(8)">
-                  <div class="icon-group">
-                    <font-awesome-icon v-if="sectionId == 8" :icon="['fas', 'chevron-down']" />
-                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
-                    <h6 class="text">
-                      Resume Building
-                    </h6>
-                  </div>
-                  <h6 class="lecture-count">
-                    1 Lectures
-                  </h6>
-                </div>
-                <div class="content">
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Prepare Your Resume For local Markets
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="toggle" :class="sectionId == 9 ? 'active': ''">
-                <div class="header bg-light-gray" @click="setSectionId(9)">
-                  <div class="icon-group">
-                    <font-awesome-icon v-if="sectionId == 9" :icon="['fas', 'chevron-down']" />
-                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
-                    <h6 class="text">
-                      React & Vue
-                    </h6>
-                  </div>
-                  <h6 class="lecture-count">
-                    1 Lectures
-                  </h6>
-                </div>
-                <div class="content">
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Which Front End Framework will be suitable for you
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="toggle" :class="sectionId == 10 ? 'active': ''">
-                <div class="header bg-light-gray" @click="setSectionId(10)">
-                  <div class="icon-group">
-                    <font-awesome-icon v-if="sectionId == 10" :icon="['fas', 'chevron-down']" />
-                    <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
-                    <h6 class="text">
-                      Php & Sql
-                    </h6>
-                  </div>
-                  <h6 class="lecture-count">
-                    1 Lectures
-                  </h6>
-                </div>
-                <div class="content">
-                  <div class="class">
-                    <div class="icon-group">
-                      <font-awesome-icon :icon="['fas', 'play-circle']" />
-                      <h6 class="text">
-                        Php Crash Introduction
-                      </h6>
-                    </div>
-                    <p class="count">
-                      2hrs
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Syllabus :syllabus="syllabus" />
           </div>
         </div>
       </div>
     </section>
     <!-- syllabus section end  -->
     <Team class="bg-light-gray" />
-    <!-- FAQ section Start -->
-    <section class="faq-area">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="trainer-title text-center">
-              <h6> প্রশ্ন-উত্তর </h6>
-              <h4> আপনার প্রশ্ন আমাদের উত্তর </h4>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="faq-area__text">
-              <h5> প্রতি ব্যাচ এ শিক্ষার্থী সংখ্যা কত হবে ? </h5>
-              <p> আমাদের প্রতি ব্যাচে শিক্ষার্থী সংখ্যা সর্বোচ্চ ২৫ জন করে থাকবে ।</p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="faq-area__text">
-              <h5> ক্লাস কখন নেওয়া হবে? </h5>
-              <p>
-                আপাদও আমাদের বিকাল এর ব্যাচের কার্যক্রম চলমান থাকবে, যা শুরু হবে বিকালঃ<b> ৩.০০ টা - ৫.০০ টা </b>
-                পর্যন্ত। সপ্তাহে ৩ দিন - রবি , মঙ্গল ও বৃহস্পতিবার ।
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="faq-area__text">
-              <h5> আপনারা কোর্স শিখানোর পর, চাকরির গ্যারান্টি দিবেন? </h5>
-              <p>
-                <!-- আমরা কোন গ্যারান্টি দিচ্ছি না। তবে, এই মুহুর্তে আমরা প্রত্যেক ব্যাচ থেকে ২ জন শিক্ষার্থী কে ইন্টার্নশিপ এর সুবিধা দিচ্ছি। এছাড়াও আমরা চাকরি এবং ফ্রিল্যান্সিং এর ক্ষেত্রে সব রকমের সাহায্য করব।  -->
-                গ্যারান্টি দিচ্ছি না , তবে সুযোগ দিবো আমাদের সাথে ইন্টার্নশিপ করার জন্য, যারা ভালো পারফরমেন্স করবে।
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="faq-area__text">
-              <h5> কোর্স শেষে কি সার্টিফিকেট দিবেন? </h5>
-              <p>
-                <!-- না। আপনি জানেন কি? আমাদের এই টেকনিক্যাল লাইনে, কেউ আপনার সার্টিফিকেট দেখবে না, দেখবে আপনার কাজ ও অভিজ্ঞতা। আর, এই দুইটা ক্ষেত্রেই আমরা আপনাকে গড়ে তুলব -->
-                আমরা কোনো প্রকার সার্টিফিকেট দিবো না আমাদের বুটক্যাম্প থেকে । আমরা দক্ষতা নীতিতে বিশ্বাসি, যেখানে আপনার
-                কাজ আপনাকে মূল্যায়ন করবে , সেখানে সার্টিফিকেটের এর কোনো প্রয়োজন নেই ।
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- FAQ section end -->
+    <FAQ />
   </div>
 </template>
 
 <script>
 import Team from '~/components/Team'
+import Syllabus from '~/components/Syllabus'
+import FAQ from '~/components/FAQ'
+import Bonus from '~/components/Bonus'
 
 export default {
   components: {
-    Team
+    Team,
+    Syllabus,
+    FAQ,
+    Bonus
   },
   data () {
     return {
@@ -953,8 +244,7 @@ export default {
           {
             id: 1,
             name: 'HTML- Hyper Text Markup Language',
-            lecture: '6 Lecture',
-            classes: [
+            sessions: [
               {
                 id: 1,
                 title: 'Welcome - Introduction of Html, Environment Setup',
@@ -990,8 +280,7 @@ export default {
           {
             id: 2,
             name: 'CSS - Cascading Style Sheets',
-            lecture: '8 Lecture',
-            classes: [
+            sessions: [
               {
                 id: 1,
                 title: 'Welcome - Introduction of CSS, Environment Setup',
@@ -1004,7 +293,7 @@ export default {
               },
               {
                 id: 3,
-                title: 'CSS - Display, Backgrounds & Pseudo (classes,Elements)',
+                title: 'CSS - Display, Backgrounds & Pseudo (sessions,Elements)',
                 duration: '2 hrs'
               },
               {
@@ -1037,8 +326,7 @@ export default {
           {
             id: 3,
             name: 'JavaScript & Jquery',
-            lecture: '8 Lecture',
-            classes: [
+            sessions: [
               {
                 id: 1,
                 title: 'Welcome - Introduction of JavaScript & Jquery, Environment Setup',
@@ -1084,8 +372,7 @@ export default {
           {
             id: 4,
             name: 'Bootstrap',
-            lecture: '4 Lecture',
-            classes: [
+            sessions: [
               {
                 id: 1,
                 title: 'Welcome - Introduction of Bootstrap, Environment Setup',
@@ -1111,8 +398,7 @@ export default {
           {
             id: 5,
             name: 'Projects',
-            lecture: '4 Lecture',
-            classes: [
+            sessions: [
               {
                 id: 1,
                 title: 'Psd to html',
@@ -1138,8 +424,7 @@ export default {
           {
             id: 6,
             name: 'Getting ready to serve',
-            lecture: '4 Lecture',
-            classes: [
+            sessions: [
               {
                 id: 1,
                 title: 'Domain & Hosting Class',
@@ -1174,11 +459,6 @@ export default {
           }
         ]
       }
-    }
-  },
-  methods: {
-    setSectionId (id) {
-      this.sectionId = id
     }
   }
 }
