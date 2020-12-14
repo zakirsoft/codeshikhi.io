@@ -1137,65 +1137,37 @@ export default {
           },
           {
             id: 6,
-            name: 'Git & Github',
-            lecture: '1 Lecture',
+            name: 'Getting ready to serve',
+            lecture: '4 Lecture',
             classes: [
               {
                 id: 1,
-                title: 'git & github Configuration',
-                duration: '2 hrs'
-              }
-            ]
-          },
-          {
-            id: 7,
-            name: 'Market Places',
-            lecture: '2 Lecture',
-            classes: [
-              {
-                id: 1,
-                title: 'Fiverr Market Place',
+                title: 'Domain & Hosting Class',
                 duration: '2 hrs'
               },
               {
-                id: 1,
-                title: 'Upwork Market Place',
+                id: 2,
+                title: 'Git & Github Master Class',
                 duration: '2 hrs'
-              }
-            ]
-          },
-          {
-            id: 8,
-            name: 'Resume Building',
-            lecture: '1 Lecture',
-            classes: [
+              },
               {
-                id: 1,
-                title: 'Prepare Your Resume For local Markets',
+                id: 3,
+                title: 'Fiverr & Upwork Freelancing',
                 duration: '2 hrs'
-              }
-            ]
-          },
-          {
-            id: 9,
-            name: 'React & Vue',
-            lecture: '1 Lecture',
-            classes: [
+              },
               {
-                id: 1,
-                title: 'Which Front End Framework will be suitable for you',
+                id: 4,
+                title: 'Fiverr & Upwork Freelancing',
                 duration: '2 hrs'
-              }
-            ]
-          },
-          {
-            id: 10,
-            name: 'Php & Sql',
-            lecture: '1 Lecture',
-            classes: [
+              },
               {
-                id: 1,
-                title: 'Php Crash Introduction',
+                id: 5,
+                title: 'Frontend Technologies, React & Vue',
+                duration: '2 hrs'
+              },
+              {
+                id: 6,
+                title: 'Resume Building & Job Preparation',
                 duration: '2 hrs'
               }
             ]
