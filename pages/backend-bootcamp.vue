@@ -777,6 +777,7 @@ export default {
           {
             id: 1,
             name: 'PHP, OOP & Database',
+            lecture: '5 Lecture',
             classes: [
               {
                 id: 1,
@@ -801,6 +802,166 @@ export default {
               {
                 id: 5,
                 title: 'Final Part - PHP OOP & MYSQL CRUD',
+                duration: '2 hrs'
+              }
+            ]
+          },
+          {
+            id: 2,
+            name: 'Laravel Introduction & Basics',
+            lecture: '3 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'Basics Part 1 - Introduction, Setup',
+                duration: '2 hrs'
+              },
+              {
+                id: 2,
+                title: 'Basics Part 2 - MVC Architecture Practical Example',
+                duration: '2 hrs'
+              },
+              {
+                id: 3,
+                title: 'Final Part - CRUD Application Project',
+                duration: '2 hrs'
+              }
+            ]
+          },
+          {
+            id: 3,
+            name: 'eCommerce Project Development',
+            lecture: '8 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'Basics Part 1 - Admin Panel Mastering',
+                duration: '2 hrs'
+              },
+              {
+                id: 2,
+                title: 'Basics Part 2 - Website Mastering',
+                duration: '2 hrs'
+              },
+              {
+                id: 3,
+                title: 'Basics Part 3 - Route Making',
+                duration: '2 hrs'
+              },
+              {
+                id: 4,
+                title: 'Basics Part 4 - Controller Making',
+                duration: '2 hrs'
+              },
+              {
+                id: 5,
+                title: 'Basics Part 5 - Blade Template Making',
+                duration: '2 hrs'
+              },
+              {
+                id: 6,
+                title: 'Basics Part 6 - Database Logic',
+                duration: '2 hrs'
+              },
+              {
+                id: 7,
+                title: 'Basics Part 7 - Site Optimization ',
+                duration: '2 hrs'
+              },
+              {
+                id: 8,
+                title: 'Basics Part 8 - Site SEO',
+                duration: '2 hrs'
+              }
+            ]
+          },
+          {
+            id: 4,
+            name: 'Vue.js Basics, Vue Router & Vuex',
+            lecture: '5 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'Vue.js Introduction, CLI & Getting started',
+                duration: '2 hrs'
+              },
+              {
+                id: 2,
+                title: 'Vue.js - Statement, List Rendering & Form Binding',
+                duration: '2 hrs'
+              },
+              {
+                id: 3,
+                title: 'Vue Router - All you need',
+                duration: '2 hrs'
+              },
+              {
+                id: 4,
+                title: 'Vuex - All you need',
+                duration: '2 hrs'
+              },
+              {
+                id: 5,
+                title: 'Vue.js, Vue Router & Vuex - Combined Project',
+                duration: '2 hrs'
+              }
+            ]
+          },
+          {
+            id: 5,
+            name: 'Vue.js & Laravel Project',
+            lecture: '5 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'Project Setup',
+                duration: '2 hrs'
+              },
+              {
+                id: 2,
+                title: 'REST API & Vue CRUD Part 1',
+                duration: '2 hrs'
+              },
+              {
+                id: 3,
+                title: 'REST API & Vue CRUD Part 2',
+                duration: '2 hrs'
+              },
+              {
+                id: 4,
+                title: 'REST API & Vue CRUD Part 3',
+                duration: '2 hrs'
+              },
+              {
+                id: 5,
+                title: 'Laravel REST API and Vue.js Authentication',
+                duration: '2 hrs'
+              }
+            ]
+          },
+          {
+            id: 6,
+            name: 'Getting ready to serve',
+            lecture: '4 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'Domain & Hosting Class',
+                duration: '2 hrs'
+              },
+              {
+                id: 2,
+                title: 'Fiverr & Upwork Freelancing',
+                duration: '2 hrs'
+              },
+              {
+                id: 3,
+                title: 'Cloud server & Laravel Setup',
+                duration: '2 hrs'
+              },
+              {
+                id: 4,
+                title: 'Portfolio Buildup & Developer CV Making',
                 duration: '2 hrs'
               }
             ]

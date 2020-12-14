@@ -822,7 +822,6 @@
                   </div>
                 </div>
               </div>
-
               <div class="toggle" :class="sectionId == 9 ? 'active': ''">
                 <div class="header bg-light-gray" @click="setSectionId(9)">
                   <div class="icon-group">
@@ -946,7 +945,261 @@ export default {
   },
   data () {
     return {
-      sectionId: 1
+      sectionId: 1,
+      syllabus: {
+        sections: [
+          {
+            id: 1,
+            name: 'HTML- Hyper Text Markup Language',
+            lecture: '6 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'Welcome - Introduction of Html, Environment Setup',
+                duration: '2 hrs'
+              },
+              {
+                id: 2,
+                title: 'Basic Tags & Their Attributes',
+                duration: '2 hrs'
+              },
+              {
+                id: 3,
+                title: 'Html Basic & nested Tables',
+                duration: '2 hrs'
+              },
+              {
+                id: 4,
+                title: 'Html Forms',
+                duration: '2 hrs'
+              },
+              {
+                id: 5,
+                title: 'Semantic Tags',
+                duration: '2 hrs'
+              },
+              {
+                id: 6,
+                title: 'Section-End Final Project & Overview of HTML',
+                duration: '2 hrs'
+              }
+            ]
+          },
+          {
+            id: 2,
+            name: 'CSS - Cascading Style Sheets',
+            lecture: '8 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'Welcome - Introduction of CSS, Environment Setup',
+                duration: '2 hrs'
+              },
+              {
+                id: 2,
+                title: 'CSS - Units & Spacing',
+                duration: '2 hrs'
+              },
+              {
+                id: 3,
+                title: 'CSS - Display, Backgrounds & Pseudo (classes,Elements)',
+                duration: '2 hrs'
+              },
+              {
+                id: 4,
+                title: 'CSS - Positions',
+                duration: '2 hrs'
+              },
+              {
+                id: 5,
+                title: 'CSS - Flexbox',
+                duration: '2 hrs'
+              },
+              {
+                id: 6,
+                title: 'CSS - Animations',
+                duration: '2 hrs'
+              },
+              {
+                id: 7,
+                title: 'CSS - Media Query',
+                duration: '2 hrs'
+              },
+              {
+                id: 8,
+                title: 'Section-End Final Project & Overview of CSS',
+                duration: '2 hrs'
+              }
+            ]
+          },
+          {
+            id: 3,
+            name: 'JavaScript & Jquery',
+            lecture: '8 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'Welcome - Introduction of JavaScript & Jquery, Environment Setup',
+                duration: '2 hrs'
+              },
+              {
+                id: 2,
+                title: 'JavaScript Variable & DataTypes',
+                duration: '2 hrs'
+              },
+              {
+                id: 3,
+                title: 'Logical Operators & Expression',
+                duration: '2 hrs'
+              },
+              {
+                id: 4,
+                title: 'Conditional Statements & objects',
+                duration: '2 hrs'
+              },
+              {
+                id: 5,
+                title: 'Functions',
+                duration: '2 hrs'
+              },
+              {
+                id: 6,
+                title: 'DOM - Document Object Model',
+                duration: '2 hrs'
+              },
+              {
+                id: 7,
+                title: 'Jquery & Plugins',
+                duration: '2 hrs'
+              },
+              {
+                id: 8,
+                title: 'Section-End Final Project & Overview of javaScript',
+                duration: '2 hrs'
+              }
+            ]
+          },
+          {
+            id: 4,
+            name: 'Bootstrap',
+            lecture: '4 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'Welcome - Introduction of Bootstrap, Environment Setup',
+                duration: '2 hrs'
+              },
+              {
+                id: 2,
+                title: 'Bootstrap Components Customizations & Uses',
+                duration: '2 hrs'
+              },
+              {
+                id: 3,
+                title: 'Bootstrap Grid Layout',
+                duration: '2 hrs'
+              },
+              {
+                id: 4,
+                title: 'REST API & Vue CRUD Part 3',
+                duration: '2 hrs'
+              }
+            ]
+          },
+          {
+            id: 5,
+            name: 'Projects',
+            lecture: '4 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'Psd to html',
+                duration: '2 hrs'
+              },
+              {
+                id: 2,
+                title: 'XD to html',
+                duration: '2 hrs'
+              },
+              {
+                id: 3,
+                title: 'figma to html',
+                duration: '2 hrs'
+              },
+              {
+                id: 4,
+                title: 'Build Portfolio Site',
+                duration: '2 hrs'
+              }
+            ]
+          },
+          {
+            id: 6,
+            name: 'Git & Github',
+            lecture: '1 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'git & github Configuration',
+                duration: '2 hrs'
+              }
+            ]
+          },
+          {
+            id: 7,
+            name: 'Market Places',
+            lecture: '2 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'Fiverr Market Place',
+                duration: '2 hrs'
+              },
+              {
+                id: 1,
+                title: 'Upwork Market Place',
+                duration: '2 hrs'
+              }
+            ]
+          },
+          {
+            id: 8,
+            name: 'Resume Building',
+            lecture: '1 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'Prepare Your Resume For local Markets',
+                duration: '2 hrs'
+              }
+            ]
+          },
+          {
+            id: 9,
+            name: 'React & Vue',
+            lecture: '1 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'Which Front End Framework will be suitable for you',
+                duration: '2 hrs'
+              }
+            ]
+          },
+          {
+            id: 10,
+            name: 'Php & Sql',
+            lecture: '1 Lecture',
+            classes: [
+              {
+                id: 1,
+                title: 'Php Crash Introduction',
+                duration: '2 hrs'
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   methods: {
