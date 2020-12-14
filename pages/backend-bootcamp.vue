@@ -14,7 +14,7 @@
               </h1>
               <p class="subbanner__pra mb-3">
                 পেশাদারদের মত দক্ষতা অর্জন করুন, বেসিক থেকে শুরু করে ‍আপনার
-                নিজের ওয়েভসাইট ডিজাইন করা পর্যন্ত।
+                নিজের ওয়েভসাইট ডেভেলপমেন্ট করা পর্যন্ত।
               </p>
               <div class="d-flex align-items-center flex-wrap">
                 <!-- Authors -->
@@ -48,7 +48,7 @@
         <div class="row">
           <div class="features__section text-center">
             <span class="text-uppercase d-inline-block mb-2"> সুবিধা সমূহ </span>
-            <h2> বুটক্যাম্প টি আপনার জন্য নিখুত শুরুর জায়গা হতে পারে </h2>
+            <h2> বুটক্যাম্প টি আপনার শিখার নিখুত শুরু হতে পারে </h2>
           </div>
         </div>
         <div class="row align-items-center">
@@ -108,12 +108,12 @@
                 <div class="info">
                   <div class="d-flex flex-wrap justify-content-between align-items-center">
                     <h4 class="price">
-                      5500TK
+                      ৫৫০০ টাকা
                     </h4>
                     <a href="#" class="bg-dark btn btn-primary">Enroll Now</a>
                   </div>
                   <div class="start-date">
-                    পরবর্তী ব্যাচের সময় সূচি রেজিস্ট্রেশন শুরু: ডিসেম্বরের ১০ | ২০২০ (বৃহস্পতিবার)
+                    পরবর্তী ব্যাচের সময় সূচি রেজিস্ট্রেশন শুরু: জানুয়ারি ১, ২০২১ ।
                   </div>
                 </div>
               </div>
@@ -153,7 +153,6 @@
                 এক্সপার্টদের কাছ থেকে শিখুন
               </h6>
               <div class="go_brief">
-                <!-- HATH EEH KOLOM ER MOTO KORE APNAKEY OVVIGGOH KORE TULA HOBEY , APNAR CAREER BUILD UP ER JONNO  -->
                 অভিজ্ঞতা সর্বদাই গুরুত্বপূর্ণ ভূমিকা পালন করে, আর আপনি সঠিক জায়গায় এসেছেন কারন আমাদের প্রশিক্ষকদের রয়েছে
                 <b>৪+</b> বছরের বেশী কাজ করার অভিজ্ঞতা।
               </div>
@@ -773,7 +772,42 @@ export default {
   },
   data () {
     return {
-      sectionId: 1
+      sectionId: 1,
+      syllabus: {
+        sections: [
+          {
+            id: 1,
+            name: 'PHP, OOP & Database',
+            classes: [
+              {
+                id: 1,
+                title: 'Basics Part 1 - Introduction & Getting started',
+                duration: '2 hrs'
+              },
+              {
+                id: 2,
+                title: 'Basics Part 2 - Condition, Loop, Functions',
+                duration: '2 hrs'
+              },
+              {
+                id: 3,
+                title: 'PHP OOP - All you need',
+                duration: '2 hrs'
+              },
+              {
+                id: 4,
+                title: 'MYSQL Basics',
+                duration: '2 hrs'
+              },
+              {
+                id: 5,
+                title: 'Final Part - PHP OOP & MYSQL CRUD',
+                duration: '2 hrs'
+              }
+            ]
+          }
+        ]
+      }
     }
   },
   methods: {
