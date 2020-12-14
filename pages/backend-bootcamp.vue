@@ -777,6 +777,7 @@ export default {
           {
             id: 1,
             name: 'PHP, OOP & Database',
+            lecture: '5 Lecture',
             classes: [
               {
                 id: 1,
@@ -808,6 +809,7 @@ export default {
           {
             id: 2,
             name: 'Laravel Introduction & Basics',
+            lecture: '3 Lecture',
             classes: [
               {
                 id: 1,
@@ -829,6 +831,7 @@ export default {
           {
             id: 3,
             name: 'eCommerce Project Development',
+            lecture: '8 Lecture',
             classes: [
               {
                 id: 1,
@@ -875,6 +878,7 @@ export default {
           {
             id: 4,
             name: 'Vue.js Basics, Vue Router & Vuex',
+            lecture: '5 Lecture',
             classes: [
               {
                 id: 1,
@@ -906,6 +910,7 @@ export default {
           {
             id: 5,
             name: 'Vue.js & Laravel Project',
+            lecture: '5 Lecture',
             classes: [
               {
                 id: 1,
@@ -937,6 +942,7 @@ export default {
           {
             id: 6,
             name: 'Getting ready to serve',
+            lecture: '4 Lecture',
             classes: [
               {
                 id: 1,
