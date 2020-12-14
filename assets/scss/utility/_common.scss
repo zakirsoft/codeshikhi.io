@@ -120,10 +120,10 @@ ul.check-list {
 }
 
 .text-color {
-    color: rgb(16, 185, 129) !important;
+    color: $primary !important;
 }
 .bg-color {
-    background-color: rgb(52, 211, 153) !important;
+    background-color: $primary !important;
 }
 
 .transform-y50 {
