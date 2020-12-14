@@ -118,7 +118,7 @@
               </div>
               <!-- SVG Elements -->
               <div class="dot-shape">
-                <img src="~/assets/images/dots-2.svg" alt="shape">
+                <img src="~/assets/images/dots.svg" alt="shape">
               </div>
               <!-- End SVG Elements -->
             </div>
