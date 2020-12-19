@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/icon.png' }
     ]
   },
 
@@ -26,11 +26,25 @@ export default {
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
 
+  router: {
+    // linkActiveClass: 'active',
+    linkExactActiveClass: 'active'
+  },
+
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/eslint
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/fontawesome'
   ],
+
+  fontawesome: {
+    icons: {
+      solid: ['faCog', 'faAddressBook', 'faGlobe', 'faGraduationCap', 'faUser', 'faList', 'faDollarSign', 'faBriefcase', 'faCheck', 'faPlayCircle', 'faChevronRight', 'faCode', 'faRocket', 'faCalendar', 'faChevronDown', 'faAngleRight', 'faBook'],
+      regular: [],
+      brands: ['faFacebookF', 'faGithub', 'faInternetExplorer']
+    }
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
