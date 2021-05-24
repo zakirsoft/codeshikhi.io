@@ -7,5 +7,9 @@ h1, h2, h3 {
 }
 
 .font-secondary {
-   font-family: $font-secondary; 
+   font-family: $font-secondary !important; 
+}
+
+.font-regular {
+    font-weight: 400 !important;
 }

@@ -6,7 +6,7 @@
         <div class="row align-items-center">
           <div class="col-md-10 col-12 col-lg-8">
             <div class="subbanner__content">
-              <div class="btn-xs bg-color d-inline-block btn-pill text-uppercase mb-2">
+              <div class="btn-xs bg-color d-inline-block btn-pill text-uppercase mb-2 font-secondary">
                 Trending
               </div>
               <h1 class="subbanner__header">
@@ -195,25 +195,29 @@
               <div class="col-md-6 col-6">
                 <div class="mb-5">
                   <h4> ৩৬ </h4>
-                  <p> সর্বমোট ক্লাস </p>
+                  <!-- <p> সর্বমোট ক্লাস </p> -->
+                  <p><b>সর্বমোট ক্লাস </b></p>
                 </div>
               </div>
               <div class="col-md-6 col-6">
                 <div class="mb-5">
                   <h4> ৭২ </h4>
-                  <p> ঘন্টার ক্লাস </p>
+                  <!-- <p> সর্বমোট ঘন্টার ক্লাস </p> -->
+                  <p><b>সর্বমোট ঘন্টার ক্লাস</b> </p>
                 </div>
               </div>
               <div class="col-md-6 col-6">
                 <div class="mb-5">
                   <h4> ২১ </h4>
-                  <p> আকর্ষণীয় প্রজেক্ট </p>
+                  <!-- <p> আকর্ষণীয় প্রজেক্ট </p> -->
+                  <p><b>আকর্ষণীয় প্রজেক্ট </b></p>
                 </div>
               </div>
               <div class="col-md-6 col-6">
                 <div class="mb-5">
                   <h4> ১৩৬ </h4>
-                  <p> শিখেছে এই পর্যন্ত </p>
+                  <!-- <p> শিখেছে এই পর্যন্ত </p> -->
+                  <p><b>প্রতি ব্যাচে</b> </p>
                 </div>
               </div>
             </div>

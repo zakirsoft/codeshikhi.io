@@ -6,7 +6,7 @@
         <div class="row align-items-center">
           <div class="col-md-8">
             <div class="subbanner__content">
-              <div class="btn-xs bg-color d-inline-block btn-pill text-uppercase mb-2">
+              <div class="btn-xs bg-color d-inline-block btn-pill text-uppercase mb-2 font-secondary">
                 Trending
               </div>
               <h1 class="subbanner__header">
@@ -28,10 +28,12 @@
                     তৈরী করেছেন <a class="link-underline ml-1" target="_blank" href="https://zakirhossen.com"> জাকির হোসেন </a>
                   </div>
                   <p class="mb-0 ml-3 mr-3 font-secondary">
-                    <font-awesome-icon :icon="['fas', 'rocket']" /> ২৫৭১ ছাত্র ভর্তি হয়েছে
+                    <font-awesome-icon :icon="['fas', 'rocket']" />
+                    ২৫৭১ ছাত্র ভর্তি হয়েছে
                   </p>
                   <p class="mb-0 font-secondary">
-                    <font-awesome-icon :icon="['fas', 'calendar']" /> শেষ আপডেট: ২৪ই মে
+                    <font-awesome-icon :icon="['fas', 'calendar']" />
+                    শেষ আপডেট: ২৪ই মে
                   </p>
                 </div>
                 <!-- End Authors -->
@@ -47,8 +49,8 @@
       <div class="container">
         <div class="row">
           <div class="features__section text-center">
-            <span class="text-uppercase d-inline-block mb-2">বৈশিষ্ট্য সমূহ</span>
-            <h2>বুটক্যাম্পে আপনি যা পাচ্ছেন</h2>
+            <span class="text-uppercase d-inline-block mb-2"> বৈশিষ্ট্য সমূহ </span>
+            <h2> বুটক্যাম্পে আপনি যা পাচ্ছেন </h2>
           </div>
         </div>
         <div class="row align-items-center">
@@ -57,26 +59,80 @@
               <div class="icon-box mt-3">
                 <font-awesome-icon :icon="['fas', 'user']" />
               </div>
-              <h3>কোর্স চলাকালীন</h3>
+              <h3> কোর্স চলাকালীন </h3>
             </div>
             <ul class="check-list">
               <li>
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p> <b>২৪/৭</b> সাপোর্ট কোর্স চলাকালীন </p>
+                <p class="font-regular">
+                  এক্সপার্টদের কাছ থেকে শিখুন
+                </p>
               </li>
               <li>
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p><b>৬+</b> টির ও বেশী প্রজেক্ট থাকছে </p>
+                <p class="font-regular">
+                  প্রজেক্ট এর মাধ্যমে কোডিং শিখুন
+                </p>
               </li>
               <li>
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p><b>প্রশ্নাত্তর পর্ব</b> প্রতি ক্লাস শেষে</p>
+                <p class="font-regular">
+                  shompurno ফ্রিল্যান্সিং abong job গাইডলাইন
+                </p>
+              </li>
+              <li>
+                <div class="icon icon-success">
+                  <font-awesome-icon :icon="['fas', 'check']" />
+                </div>
+                <p class="font-regular">
+                  ৬+ টির ও বেশী প্রজেক্ট থাকছে
+                </p>
+              </li>
+              <li>
+                <div class="icon icon-success">
+                  <font-awesome-icon :icon="['fas', 'check']" />
+                </div>
+                <p class="font-regular">
+                  বিনামুল্যে চিটশিট & class video
+                </p>
+              </li>
+              <li>
+                <div class="icon icon-success">
+                  <font-awesome-icon :icon="['fas', 'check']" />
+                </div>
+                <p class="font-regular">
+                  ৭২ সর্বমোট ঘন্টার ক্লাস
+                </p>
+              </li>
+              <li>
+                <div class="icon icon-success">
+                  <font-awesome-icon :icon="['fas', 'check']" />
+                </div>
+                <p class="font-regular">
+                  ৬+ টির ও বেশী প্রজেক্ট থাকছে
+                </p>
+              </li>
+              <li>
+                <div class="icon icon-success">
+                  <font-awesome-icon :icon="['fas', 'check']" />
+                </div>
+                <p class="font-regular">
+                  কোর্স চলাকালীন সাপোর্ট
+                </p>
+              </li>
+              <li>
+                <div class="icon icon-success">
+                  <font-awesome-icon :icon="['fas', 'check']" />
+                </div>
+                <p class="font-regular">
+                  প্রশ্নাত্তর পর্ব প্রতি ক্লাস শেষে
+                </p>
               </li>
             </ul>
           </div>
@@ -88,11 +144,11 @@
                 </div>
                 <div class="info">
                   <div class="d-flex flex-wrap justify-content-between align-items-center">
-                    <h4 class="price">
+                    <p class="price m-0">
                       ৫৫০০ টাকা
-                    </h4>
-                    <a href="#" class="bg-dark btn btn-primary">Enroll Now</a>
+                    </p>
                   </div>
+                  <a href="#" class="btn btn-lg btn-primary w-100">এনরোল করুন</a>
                   <div class="start-date">
                     পরবর্তী ব্যাচের সময় সূচি: জানুয়ারি ১, ২০২১ ।
                   </div>
@@ -194,13 +250,13 @@
               <div class="col-md-6 col-6">
                 <div class="mb-5">
                   <h4> ৭২ </h4>
-                  <p><b>সর্বমোট ঘন্টা</b> </p>
+                  <p><b>সর্বমোট ঘন্টার ক্লাস</b> </p>
                 </div>
               </div>
               <div class="col-md-6 col-6">
                 <div class="mb-5">
                   <h4> ৬+ </h4>
-                  <p><b>সর্বমোট প্রজেক্ট </b></p>
+                  <p><b>আকর্ষণীয় প্রজেক্ট </b></p>
                 </div>
               </div>
               <div class="col-md-6 col-6">

@@ -13,11 +13,13 @@
     .info {
         padding: 20px;
         .price {
-            font-size: 55px;
-            font-weight: bold;
+            font-size: 45px;
+            // font-weight: bold;
             // color: $primary;
-            margin-bottom: 0;
             color: $dark;
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
         }
         .students-count{
             i,svg {
@@ -30,14 +32,13 @@
             padding: 10px 50px;
         }
         .start-date {
-            background-color: $primary;
-            margin: 30px 0;
-            border-radius: 10px;
+            margin: 30px 0 20px;
+            border-radius: 20px;
             padding: 10px;
-            color: white;
+            color: $dark;
             box-sizing: border-box;
             text-align: center;
-            background-color: $dark;
+            background-color: rgba($dark, .1);
         }   
     }
 }
