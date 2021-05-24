@@ -2,6 +2,9 @@
 $primary: #23C466;
 $dark: #414742;
 
+$font-primary: 'Baloo Da 2', sans-serif;
+$font-secondary: 'Poppins', sans-serif;
+
 @function color($color-name) {
 	@return map-get($map: $colors, $key: $color-name);
 }

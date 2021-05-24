@@ -1,3 +1,15 @@
 h1, h2, h3 {
     font-weight: 700;
 }
+
+.font-primary {
+    font-family: $font-primary;
+}
+
+.font-secondary {
+   font-family: $font-secondary !important; 
+}
+
+.font-regular {
+    font-weight: 400 !important;
+}
