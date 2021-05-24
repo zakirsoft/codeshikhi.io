@@ -60,41 +60,77 @@
               <p> এক নজরে দেখে নিন, বুটক্যাম্প এর আকর্ষনীয় কিছু বৈশিষ্ট্য </p>
             </div>
             <ul class="check-list">
-              <li>
+                <li>
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p> দক্ষ প্রশিক্ষক </p>
+                <p class="font-regular">
+                  এক্সপার্টদের কাছ থেকে শিখুন
+                </p>
               </li>
               <li>
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p> ২৫+ প্রজেক্টস </p>
+                <p class="font-regular">
+                  প্রজেক্ট এর মাধ্যমে কোডিং শিখুন
+                </p>
               </li>
               <li>
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p> লাইভ প্রজেক্টস </p>
+                <p class="font-regular">
+                  shompurno ফ্রিল্যান্সিং abong job গাইডলাইন
+                </p>
               </li>
               <li>
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p> প্রত্যেক ক্লাস ভিডিও </p>
+                <p class="font-regular">
+                  ৬+ টির ও বেশী প্রজেক্ট থাকছে
+                </p>
               </li>
               <li>
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p> প্রশ্নাত্তর পর্ব প্রতি ক্লাস শেষে </p>
+                <p class="font-regular">
+                  বিনামুল্যে চিটশিট & class video
+                </p>
               </li>
               <li>
                 <div class="icon icon-success">
                   <font-awesome-icon :icon="['fas', 'check']" />
                 </div>
-                <p> স্টুডেন্টস সাপোর্ট সুবিধা </p>
+                <p class="font-regular">
+                  ৭২ সর্বমোট ঘন্টার ক্লাস
+                </p>
+              </li>
+              <li>
+                <div class="icon icon-success">
+                  <font-awesome-icon :icon="['fas', 'check']" />
+                </div>
+                <p class="font-regular">
+                  ৬+ টির ও বেশী প্রজেক্ট থাকছে
+                </p>
+              </li>
+              <li>
+                <div class="icon icon-success">
+                  <font-awesome-icon :icon="['fas', 'check']" />
+                </div>
+                <p class="font-regular">
+                  কোর্স চলাকালীন সাপোর্ট - স্টুডেন্টস সাপোর্ট সুবিধা
+                </p>
+              </li>
+              <li>
+                <div class="icon icon-success">
+                  <font-awesome-icon :icon="['fas', 'check']" />
+                </div>
+                <p class="font-regular">
+                  প্রশ্নাত্তর পর্ব প্রতি ক্লাস শেষে
+                </p>
               </li>
             </ul>
           </div>
@@ -109,10 +145,10 @@
                     <h4 class="price">
                       ৫৫০০ টাকা
                     </h4>
-                    <a href="#" class="bg-dark btn btn-primary"> ক্লাসে অংশগ্রহন করুন </a>
                   </div>
+                  <a href="#" class="btn btn-lg btn-primary w-100">এনরোল করুন</a>
                   <div class="start-date">
-                    পরবর্তী ব্যাচের সময় সূচি : ১ই জানুয়ারি, ২০২১ ।
+                    পরবর্তী ব্যাচের সময় সূচি: জানুয়ারি ১, ২০২১ ।
                   </div>
                 </div>
               </div>
