@@ -18,20 +18,20 @@
               </p>
               <div class="d-flex align-items-center flex-wrap">
                 <!-- Authors -->
-                <div class="d-flex align-items-center mr-4">
+                <div class="d-flex align-items-center mr-4 font-secondary">
                   <div class="avatar-group">
                     <span class="avatar avatar-xs avatar-circle">
                       <img class="avatar-img" src="~/assets/images/team/zakir.jpg" alt="Image Description">
                     </span>
                   </div>
                   <div class="pl-2">
-                    Created by <a class="link-underline ml-1" target="_blank" href="https://zakirhossen.com"> Zakir Hossen </a>
+                    তৈরী করেছেন <a class="link-underline ml-1" target="_blank" href="https://zakirhossen.com"> জাকির হোসেন </a>
                   </div>
-                  <p class="mb-0 ml-3 mr-3">
-                    <font-awesome-icon :icon="['fas', 'rocket']" /> 2571 Student enrolled
+                  <p class="mb-0 ml-3 mr-3 font-secondary">
+                    <font-awesome-icon :icon="['fas', 'rocket']" /> ২৫৭১ ছাত্র ভর্তি হয়েছে
                   </p>
-                  <p class="mb-0">
-                    <font-awesome-icon :icon="['fas', 'calendar']" /> Last Updated: 9th December, 2020
+                  <p class="mb-0 font-secondary">
+                    <font-awesome-icon :icon="['fas', 'calendar']" /> শেষ আপডেট: ২৪ই মে
                   </p>
                 </div>
                 <!-- End Authors -->

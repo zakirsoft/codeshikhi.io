@@ -65,8 +65,8 @@ section.bootcamp {
         li {
           width: 50%;
           p {
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 700;
+            font-weight: 400;
+            @extend .font-secondary
           }
         }
       }

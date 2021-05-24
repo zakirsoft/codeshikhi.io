@@ -17,20 +17,20 @@
               </p>
               <div class="d-flex align-items-center flex-wrap">
                 <!-- Authors -->
-                <div class="d-flex align-items-center mr-4">
+                <div class="d-flex align-items-center mr-4 font-secondary">
                   <div class="avatar-group">
                     <span class="avatar avatar-xs avatar-circle">
                       <img class="avatar-img" src="~/assets/images/team/zakir.jpg" alt="Image Description">
                     </span>
                   </div>
                   <div class="pl-2">
-                    Created by <a class="link-underline ml-1" target="_blank" href="https://zakirhossen.com"> Zakir Hossen </a>
+                    তৈরী করেছেন <a class="link-underline ml-1 font-secondary" target="_blank" href="https://zakirhossen.com"> জাকির হোসেন </a>
                   </div>
                   <p class="mb-0 ml-3 mr-3">
                     <font-awesome-icon :icon="['fas', 'rocket']" /> ২৫৭১ ছাত্র ভর্তি হয়েছে
                   </p>
                   <p class="mb-0">
-                    <font-awesome-icon :icon="['fas', 'calendar']" /> শেষ আপডেট: ১৪ই ডিসেম্বর
+                    <font-awesome-icon :icon="['fas', 'calendar']" /> শেষ আপডেট: ২৪ই মে
                   </p>
                 </div>
                 <!-- End Authors -->
@@ -194,26 +194,26 @@
             <div class="row">
               <div class="col-md-6 col-6">
                 <div class="mb-5">
-                  <h4> 36 </h4>
+                  <h4> ৩৬ </h4>
                   <p> সর্বমোট ক্লাস </p>
                 </div>
               </div>
               <div class="col-md-6 col-6">
                 <div class="mb-5">
-                  <h4> 72 </h4>
-                  <p> সর্বমোট ঘন্টা </p>
+                  <h4> ৭২ </h4>
+                  <p> ঘন্টার ক্লাস </p>
                 </div>
               </div>
               <div class="col-md-6 col-6">
                 <div class="mb-5">
-                  <h4> 21 </h4>
-                  <p> সর্বমোট প্রজেক্ট </p>
+                  <h4> ২১ </h4>
+                  <p> আকর্ষণীয় প্রজেক্ট </p>
                 </div>
               </div>
               <div class="col-md-6 col-6">
                 <div class="mb-5">
-                  <h4> 136 </h4>
-                  <p> স্টুডেন্ট ভর্তি </p>
+                  <h4> ১৩৬ </h4>
+                  <p> শিখেছে এই পর্যন্ত </p>
                 </div>
               </div>
             </div>
