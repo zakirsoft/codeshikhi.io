@@ -3,8 +3,8 @@
     <div v-for="section in syllabus.sections" :key="section.id" class="toggle" :class="sectionId == section.id ? 'active': ''">
       <div class="header bg-light-gray" @click="setSectionId(section.id)">
         <div class="icon-group">
-          <font-awesome-icon v-if="sectionId == 1" :icon="['fas', 'chevron-down']" />
-          <font-awesome-icon v-else :icon="['fas', 'chevron-right']" />
+          <font-awesome-icon v-if="sectionId == 1" :icon="['fas', 'chevron-down']" style="width: 16px; height: 16px;" />
+          <font-awesome-icon v-else :icon="['fas', 'chevron-right']" style="width: 16px; height: 16px;" />
           <h6 class="text">
             {{ section.name }}
           </h6>
@@ -16,7 +16,7 @@
       <div class="content">
         <div v-for="session in section.sessions" :key="session.id" class="class">
           <div class="icon-group">
-            <font-awesome-icon :icon="['fas', 'play-circle']" />
+            <font-awesome-icon :icon="['fas', 'play-circle']" style="width: 16px; height: 16px;" />
             <h6 class="text">
               {{ session.title }}
             </h6>

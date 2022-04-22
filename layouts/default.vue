@@ -9,31 +9,35 @@
               <nuxt-link class="navbar-brand" to="/">
                 <img src="~/assets/images/logo.png" alt="logo">
               </nuxt-link>
-              <button
-                class="navbar-toggler"
-                data-toggle="collapse"
-                data-target="#navbarSupportedContent"
-                type="button"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon" />
+              <button class="navbar-toggler" @click.prevent="mobileNav = !mobileNav">
+                <span v-if="!mobileNav" class="navbar-toggler-icon" />
+                <svg
+                  v-else
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="css-i6dzq1"
+                ><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
               </button>
-              <div id="navbarSupportedContent" class="collapse navbar-collapse">
+              <div class="collapse navbar-collapse" :class="{ 'show': mobileNav }">
                 <ul class="navbar-nav nav ml-auto">
                   <li class="nav-item">
-                    <nuxt-link class="nav-link" to="/">
+                    <nuxt-link class="nav-link" to="/" @click.native="mobileNav = false">
                       হোম
                     </nuxt-link>
                   </li>
                   <li class="nav-item">
-                    <nuxt-link class="nav-link" :to="{ name: 'frontend-bootcamp' }">
+                    <nuxt-link class="nav-link" :to="{ name: 'frontend-bootcamp' }" @click.native="mobileNav = false">
                       ফ্রন্টএন্ড বুটক্যাম্প
                     </nuxt-link>
                   </li>
                   <li class="nav-item">
-                    <nuxt-link class="nav-link" :to="{ name: 'backend-bootcamp' }">
+                    <nuxt-link class="nav-link" :to="{ name: 'backend-bootcamp' }" @click.native="mobileNav = false">
                       ব্যাকএন্ড বুটক্যাম্প
                     </nuxt-link>
                   </li>
@@ -93,13 +97,13 @@
             </ul>
             <ul class="footer__social-icon ml-0">
               <li>
-                <a href="https://www.facebook.com/codeshikhibd" target="__blank">
-                  <font-awesome-icon :icon="['fab', 'facebook-f']" />
+                <a href="https://www.facebook.com/codeshikhibd" target="__blank" class="d-flex justify-content-center align-items-center">
+                  <font-awesome-icon :icon="['fab', 'facebook-f']" style="width: 16px; height: 16px;" />
                 </a>
               </li>
               <li>
-                <a href="https://github.com/codeshikhi" target="__blank">
-                  <font-awesome-icon :icon="['fab', 'github']" />
+                <a href="https://github.com/codeshikhi" target="__blank" class="d-flex justify-content-center align-items-center">
+                  <font-awesome-icon :icon="['fab', 'github']" style="width: 16px; height: 16px;" />
                 </a>
               </li>
             </ul>
@@ -110,6 +114,15 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  data () {
+    return {
+      mobileNav: false
+    }
+  }
+}
+</script>
 
 <style lang="scss">
   @import "~bootstrap/scss/bootstrap";

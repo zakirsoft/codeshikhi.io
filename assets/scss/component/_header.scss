@@ -39,3 +39,22 @@
 		padding: 8px 0;
 	}
 }
+
+@media (max-width: 991px){
+  .navbar-nav {
+    padding: 25px 0;
+    background-color: var(--dark);
+    color: var(--white);
+  }
+  
+  .navbar-toggler {
+    height: 50px !important; 
+    width: 50px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25rem !important;
+    padding: 0.25rem 0.75rem !important;
+    border: 1px solid var(--dark) !important;
+  }
+}

@@ -17,7 +17,7 @@
               </p>
               <div class="d-flex align-items-center flex-wrap">
                 <!-- Authors -->
-                <div class="d-flex align-items-center mr-4 font-secondary">
+                <div class="d-flex align-items-center mr-4 font-secondary flex-wrap">
                   <div class="avatar-group">
                     <span class="avatar avatar-xs avatar-circle">
                       <img class="avatar-img" src="~/assets/images/team/zakir.jpg" alt="Image Description">
@@ -27,10 +27,10 @@
                     তৈরী করেছেন <a class="link-underline ml-1 font-secondary" target="_blank" href="https://zakirhossen.com"> জাকির হোসেন </a>
                   </div>
                   <p class="mb-0 ml-3 mr-3">
-                    <font-awesome-icon :icon="['fas', 'rocket']" /> ২৫৭১ ছাত্র ভর্তি হয়েছে
+                    <font-awesome-icon :icon="['fas', 'rocket']" style="width: 20px; height: 20px;" /> ২৫৭১ ছাত্র ভর্তি হয়েছে
                   </p>
                   <p class="mb-0">
-                    <font-awesome-icon :icon="['fas', 'calendar']" /> শেষ আপডেট: ২৪ই মে
+                    <font-awesome-icon :icon="['fas', 'calendar']" style="width: 20px; height: 20px;" /> শেষ আপডেট: ২৪ই মে
                   </p>
                 </div>
                 <!-- End Authors -->
@@ -60,9 +60,9 @@
               <p> এক নজরে দেখে নিন, বুটক্যাম্প এর আকর্ষনীয় কিছু বৈশিষ্ট্য </p>
             </div>
             <ul class="check-list">
-                <li>
+              <li>
                 <div class="icon icon-success">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                  <font-awesome-icon :icon="['fas', 'check']" style="width: 14px; height: 14px;" />
                 </div>
                 <p class="font-regular">
                   এক্সপার্টদের কাছ থেকে শিখুন
@@ -70,7 +70,7 @@
               </li>
               <li>
                 <div class="icon icon-success">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                  <font-awesome-icon :icon="['fas', 'check']" style="width: 14px; height: 14px;" />
                 </div>
                 <p class="font-regular">
                   প্রজেক্ট এর মাধ্যমে কোডিং শিখুন
@@ -78,7 +78,7 @@
               </li>
               <li>
                 <div class="icon icon-success">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                  <font-awesome-icon :icon="['fas', 'check']" style="width: 14px; height: 14px;" />
                 </div>
                 <p class="font-regular">
                   shompurno ফ্রিল্যান্সিং abong job গাইডলাইন
@@ -86,7 +86,7 @@
               </li>
               <li>
                 <div class="icon icon-success">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                  <font-awesome-icon :icon="['fas', 'check']" style="width: 14px; height: 14px;" />
                 </div>
                 <p class="font-regular">
                   ৬+ টির ও বেশী প্রজেক্ট থাকছে
@@ -94,7 +94,7 @@
               </li>
               <li>
                 <div class="icon icon-success">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                  <font-awesome-icon :icon="['fas', 'check']" style="width: 14px; height: 14px;" />
                 </div>
                 <p class="font-regular">
                   বিনামুল্যে চিটশিট & class video
@@ -102,7 +102,7 @@
               </li>
               <li>
                 <div class="icon icon-success">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                  <font-awesome-icon :icon="['fas', 'check']" style="width: 14px; height: 14px;" />
                 </div>
                 <p class="font-regular">
                   ৭২ সর্বমোট ঘন্টার ক্লাস
@@ -110,7 +110,7 @@
               </li>
               <li>
                 <div class="icon icon-success">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                  <font-awesome-icon :icon="['fas', 'check']" style="width: 14px; height: 14px;" />
                 </div>
                 <p class="font-regular">
                   ৬+ টির ও বেশী প্রজেক্ট থাকছে
@@ -118,7 +118,7 @@
               </li>
               <li>
                 <div class="icon icon-success">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                  <font-awesome-icon :icon="['fas', 'check']" style="width: 14px; height: 14px;" />
                 </div>
                 <p class="font-regular">
                   কোর্স চলাকালীন সাপোর্ট - স্টুডেন্টস সাপোর্ট সুবিধা
@@ -126,7 +126,7 @@
               </li>
               <li>
                 <div class="icon icon-success">
-                  <font-awesome-icon :icon="['fas', 'check']" />
+                  <font-awesome-icon :icon="['fas', 'check']" style="width: 14px; height: 14px;" />
                 </div>
                 <p class="font-regular">
                   প্রশ্নাত্তর পর্ব প্রতি ক্লাস শেষে
