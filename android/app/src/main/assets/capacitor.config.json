@@ -1,0 +1,6 @@
+{
+	"appId": "codeshikhi.zakirsoft.com",
+	"appName": "Codeshikhi.io",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
