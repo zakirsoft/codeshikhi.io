@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/frontend-bootcamp", {data:[{}],fetch:{},mutations:void 0});
